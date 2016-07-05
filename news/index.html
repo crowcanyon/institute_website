@@ -18,7 +18,7 @@ title: "Institute News"
     <!--   List of posts for landing page -->
     {% for post in paginator.posts %}
     
-    <h3><a href="{{ site.dir }}{{ post.url }}">{{ post.title }}</a></h3> {{ post.authors | map: "name" | join: ", " }} &mdash; <i>{{ post.date | date: "%B %e, %Y" }}</i>
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3> {{ post.authors | map: "name" | join: ", " }} &mdash; <i>{{ post.date | date: "%B %e, %Y" }}</i>
     <br> {{ post.content | strip_html | truncatewords:75 }}
     <br>
     <!-- {{ post.content | remove_alerts | strip_html | truncatewords:75 }}<br> -->
