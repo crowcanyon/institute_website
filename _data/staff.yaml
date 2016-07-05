@@ -1,0 +1,304 @@
+- full_name: Kyle Bocinsky
+  sort: Bocinsky, Kyle
+  tag: kyle_bocinsky
+  title: Director of Sponsored Projects
+  url: http://bocinsky.io
+  projects: [vep,pfp,skope]
+  desc: >
+    Kyle is a computational archaeologist interested in 
+    human-environment interactions in the past, present, and future.
+
+- full_name: David Boyle
+  sort: Boyle, David
+  tag: david_boyle
+  title: Explorations Coordinator
+  url: 
+  projects:
+  desc: >
+    David works for the Cultural Explorations 
+    Department as a travel coordinator and guide.
+
+- full_name: Kate Cochran
+  sort: Cochran, Kate
+  tag: kate_cochran
+  title: Archaeology Laboratory Assistant
+  url: 
+  projects:
+  desc: >
+    Kate is interested lithic and textile technologies, 
+    Southwestern and Great Basin archaeology, and public archaeology.
+
+- full_name: Grant Coffey
+  sort: Coffey, Grant
+  tag: grant_coffey
+  title: Supervisory Archaeologist
+  url: 
+  projects: [pfp]
+  desc: >
+    Grant is interested in how communities 
+    organize, evolve, and interact with each other.
+  
+#- full_name: Anna Cole
+#  sort: Cole, Anna
+#  tag: anna_cole
+#  title: Curriculum Developer
+#  url: 
+#  projects:
+#  desc:
+  
+- full_name: Steve Copeland
+  sort: Copeland, Steve
+  tag: steve_copeland
+  title: Field Archaeologist
+  url: 
+  projects:
+  desc: >
+    Steve is interested in teaching the field 
+    aspects of archaeological investigations.
+  
+- full_name: Shanna Diederichs
+  sort: Diederichs, Shanna
+  tag: shanna_diederichs
+  title: Supervisory Archaeologist
+  url: 
+  projects:
+  desc: >
+    Shanna is a Southwestern Archaeologists interested 
+    in the origins of Pueblo social institutions.
+  
+- full_name: Paul Ermigiotti
+  sort: Ermigiotti, Paul
+  tag: paul_ermigiotti
+  title: Educator Archaeologist
+  url: 
+  projects:
+  desc: >
+    Paul is interested in natural history, pottery replication, 
+    corn domestication and its importance in pueblo culture.
+  
+#- full_name: Deborah Gangloff
+#  sort: Gangloff, Deborah
+#  tag: deborah_gangloff
+#  title: President and Chief Executive Officer
+#  url: 
+#  projects:
+#  desc:
+  
+#- full_name: Becky Hammond
+#  sort: Hammond, Becky
+#  tag: becky_hammond
+#  title: Educator/American Indian Initiatives Coordinator
+#  url: 
+#  projects:
+#  desc:
+  
+#- full_name: Tyson Hughes
+#  sort: Hughes, Tyson
+#  tag: tyson_hughes
+#  title: Educator
+#  url: 
+#  projects:
+#  desc:
+  
+- full_name: Todd Kearns
+  sort: Kearns, Todd
+  tag: todd_kearns
+  title: Explorations Coordinator
+  url: 
+  projects:
+  desc: >
+    Todd is a travel coordinator, interested in past 
+    and present cultural landscapes of the Southwest.
+  
+- full_name: Kristin Kuckelman
+  sort: Kuckelman, Kristin
+  tag: kristin_kuckelman
+  title: Research Publications Manager
+  url: 
+  projects:
+  desc: >
+    Kristin is a research archaeologist, writer, and editor 
+    who studies violence, subsistence stress, and paleohydrology.
+  
+- full_name: Michael Lorusso
+  sort: Lorusso, Michael
+  tag: michael_lorusso
+  title: Laboratory Education Coordinator
+  url: 
+  projects:
+  desc: >
+      Michael is a lab archaeologist interested in southwest 
+      material culture, collections management, and public archaeology.
+  
+- full_name: Jamie Merewether
+  sort: Merewether, Jamie
+  tag: jamie_merewether
+  title: Collections Manager
+  url: 
+  projects:
+  desc: >
+    Jamie is interested in material culture and 
+    what it can tell us about life in the past.
+  
+#- full_name: Sharon Milholland
+#  tag: sharon_milholland
+#  title: Director of Programs
+#  url: 
+#  projects:
+#  desc:
+  
+- full_name: Sarah Payne
+  sort: Payne, Sarah
+  tag: sarah_payne
+  title: Director of Cultural Explorations
+  url: https://www.linkedin.com/in/sarah-payne-6798931a
+  projects:
+  desc: >
+    Sarah is an anthropologist interested in the impact 
+    of cultural tourism and experiential learning.
+  
+#- full_name: Shirley Powell
+#  sort: Powell, Shirley
+#  tag: shirley_powell
+#  title: Vice President of Programs
+#  url: 
+#  projects:
+#  desc:
+  
+- full_name: Susan Ryan
+  sort: Ryan, Susan
+  tag: susan_ryan
+  title: Director of Archaeology
+  url: 
+  projects:
+  desc: >
+    Susan is a scientist who researches the built environment 
+    and community formation in the ancient Southwest.
+  
+- full_name: Kari Schleher
+  sort: Schleher, Kari
+  tag: kari_schleher
+  title: Laboratory Manager
+  url: https://crowcanyon.academia.edu/KariSchleher
+  projects:
+  desc: >
+    Kari is an anthropological archaeologist interested in material 
+    culture as a means of understanding past social relationships.
+    
+- full_name: Dylan Schwindt
+  sort: Schwindt, Dylan
+  tag: dylan_schwindt
+  title: Systems Administrator
+  url: 
+  projects:
+  desc: >
+     Dylan is interested in applying innovative solutions in database systems, 
+     GIScience, and advanced computing technology to archaeological research and education programs.
+  
+- full_name: Becca Simon
+  sort: Simon, Becca
+  tag: becca_simon
+  title: Field Archaeologist
+  url: https://crowcanyon.academia.edu/BeccaSimon
+  projects:
+  desc: >
+    Becca is a multidisciplinary archaeologist interested in 
+    public outreach, archaeology education, and culture contact studies.
+  
+#- full_name: Dan Simplicio
+#  tag: dan_simplicio
+#  title: Cultural Specialist
+#  url: 
+#  projects:
+#  desc:
+  
+- full_name: Caitlin Sommer
+  sort: Sommer, Caitlin
+  tag: caitlin_sommer
+  title: Supervisory Archaeologist
+  url: 
+  projects:
+  desc: >
+    Caitlin is a field archaeologist interested in using 
+    knowledge gained in the past to inform the present.
+  
+#- full_name: Kathy Stemmler
+#  sort: Stemmler, Kathy
+#  tag: kathy_stemmler
+#  title: Director of Education
+#  url: 
+#  projects:
+#  desc:
+  
+- full_name: Kate Thompson
+  sort: Thompson, Kate
+  tag: kate_thompson
+  title: Explorations Coordinator
+  url: 
+  projects:
+  desc: >
+    Kate works for the Cultural Explorations Department 
+    as an adventure-travel coordinator and guide.
+
+- full_name: Mark Varien
+  sort: Varien, Mark
+  tag: mark_varien
+  title: Executive Vice President of the Research Institute
+  url: 
+  projects:
+  desc: >
+     Mark is interested in Puebloan culture history, 
+     archaeology and public education, and American Indian involvement in archaeology.
+  
+  
+#### SEASONAL ####
+- full_name: Jonathan Dombrosky
+  sort: Dombrosky, Jonathan
+  tag: jonathan_dombrosky
+  title: Seasonal Field Archaeologist
+  url: https://www.researchgate.net/profile/Jonathan_Dombrosky
+  projects:
+  desc: >
+     Jonathan is a zooarchaeologist interested in human 
+     interactions with fishes and raptors in New Mexico.
+     
+- full_name: Jonathan Walker
+  sort: Walker, Jonathan
+  tag: jonathan_walker
+  title: Seasonal Field Archaeologist
+  url: 
+  projects:
+  desc: >
+     Jonathan is a field archaeologist interested in 
+     sustainable design elements of prehistoric architecture.
+  
+#### INTERNS ####
+- full_name: Bethany Wurster
+  sort: Wurster, Bethany
+  tag: bethany_wurster
+  title: Laboratory Intern
+  url: https://www.linkedin.com/in/bethany-wurster-08693a8b
+  projects:
+  desc: >
+     Bethany is a graduate student at Utah State University interested in 
+     lithic tool organization, and lab and curatorial research.
+     
+- full_name: Tara Beresh
+  sort: Beresh, Tara
+  tag: tara_beresh
+  title: Laboratory Intern
+  url: https://www.linkedin.com/in/tara-beresh-72640763
+  projects:
+  desc: >
+     Tara is a Technical Specialist at UNM's Office of Contract Archaeology 
+     interested in perishable material culture and provenience analysis. 
+     
+- full_name: Kelsey Hanson
+  sort: Hanson, Kelsey
+  tag: kelsey_hanson
+  title: Field Intern
+  url: https://www.linkedin.com/in/kelsey-hanson-b7413078
+  projects:
+  desc: >
+     Kelsey studies prehistoric uses of both natural and constructed landscapes 
+     and the multiscalar nature of social and ritual practice. 

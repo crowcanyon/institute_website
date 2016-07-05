@@ -1,0 +1,63 @@
+---
+layout: dummy_page
+title: "The Research Institute Community"
+---
+<div class="container">
+
+    <section class="col-xs-12">
+        <br>
+        <br>
+        
+        <p>The Research Institute community is comprised of Crow Canyon <a href="#staff" title="Crow Canyon research staff">research staff</a>, <a href="#volunteers" title="Crow Canyon research volunteers">research volunteers</a>, and external <a href="#associates" title="Crow Canyon research associates">research associates</a>. Each play an integral role in the research, education, and American Indian initiatives of Crow Canyon. The Research Institute seeks to function "without walls"—we facilitate collaborations that transcend disciplinary and geographic boundaries. In particular, we are developing projects with academics, American Indian tribes, teachers and schools, and contract archaeologists.</p>
+
+    </section>
+
+</div>
+
+<div class="full_fig"><img src="./photos/susan_bcp.png"></div>
+
+<div class="container">
+
+    <section class="crew-3  col-xs-12" id="staff">
+        <br>
+
+        <h3>Research Staff</h3>
+        <p>Crow Canyon staff—in the Archaeology, Education, American Indian Initiatives, and Cultural Explorations departments—are the core research team at Crow Canyon, while also being devoted educators and curators of the archaeological past. Through educational programs and collaborations with American Indians, our staff invites the public to collaborate in cutting-edge archaeological research. Interested in joining the Crow Canyon team? Check out our <a href="http://www.crowcanyon.org/index.php/jobs">current job openings</a>!</p>
+        <br>
+        <br>
+        
+        {% assign theList = site.data.staff | sort: 'sort' %}
+        {% include_relative people_flow.html %}
+
+    </section>
+
+    <section class="crew-3  col-xs-12" id="volunteers">
+
+        <hr>
+        <br>
+
+        <h3>Research Volunteers</h3>
+        <p>Volunteers are crucial members of the Crow Canyon research team. From analyzing artifacts, to entering data, to leading site tours and cultural explorations, our research volunteers constantly challenge us to make archaeology at Crow Canyon <strong>relevant</strong> and <strong>accessible</strong>. Interested in becoming a lab, education, or cultural explorations volunteer? <a href="mailto:institute@crowcanyon.org" target="_top">Contact us</a>!</p>
+        <br>
+        <br>
+        
+        {% assign theList = site.data.volunteers | sort: 'sort' %}
+        {% include_relative people_flow.html %}
+
+    </section>
+
+    <section class="crew-3  col-xs-12" id="associates">
+
+        <hr>
+        <br>
+
+        <h3>Research Associates</h3>
+        <p>The Research Associates of Crow Canyon Archaeological Center are external researchers who are actively collaborating with other Crow Canyon researchers on specific <a href="{{ site.baseurl }}/projects/">projects</a>. Many of our research associates have long-standing relationships with Crow Canyon, and provide crucial domain-specific expertise. Research associates are welcome to <a href="{{ site.baseurl }}/about/#visit">visit Crow Canyon</a> to collaborate on specific projects, and may apply to be scholars-in-residence at the <a href="{{ site.baseurl }}/about/#ranch">Research Institute Ranch</a> for extended periods. If you are interested in starting a new research collaboration with Crow Canyon researchers and becoming a research associate, please <a href="mailto:institute@crowcanyon.org" target="_top">contact us</a>!</p>
+        <br>
+        <br>
+        
+        {% assign theList = site.data.associates | sort: 'sort' %}
+        {% include_relative people_flow.html %}
+
+    </section>
+</div>

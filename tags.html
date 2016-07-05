@@ -1,0 +1,14 @@
+---
+layout: tags
+title: Tags
+header: Posts By Tag
+date: 2012-09-28
+---
+
+{% for tag in site.tags %}
+<h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
+<ul>
+    {% assign pages_list = tag[1] %}
+    {% include JB/pages_list %}
+</ul>
+{% endfor %}

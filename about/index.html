@@ -1,0 +1,85 @@
+---
+layout: dummy_page
+title: "About the Research Institute"
+---
+
+<div class="container">
+    <section class="about">
+        <div class="row">
+
+            {% capture my_include %}{% include_relative mission.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+
+        </div>
+    </section>
+</div>
+
+<div class="container">
+    <section class="about" id="leadership">
+        <div class="row">
+            
+            <hr>
+            <h3>Leadership</h3>
+            {% assign theList = site.data.leadership %}
+            {% include_relative people_flow.html %}
+
+        </div>
+    </section>
+</div>
+
+<div class="container">
+    <section class="about" id="advisors">
+        <div class="row">
+            
+            <hr>
+            <h3>Advisory Board</h3>
+            {% assign theList = site.data.advisory_board | sort: 'sort' %}
+            {% include_relative people_flow.html %}
+        
+        </div>
+    </section>
+</div>
+
+<div class="container">
+    <section class="about" id="house">
+        <div class="row">
+            <hr>
+            <h3>The Research Institute House</h3>
+
+            <p>Visiting researchers at Crow Canyon can choose to stay at the Research Institute house, less than a mile from the Crow Canyon campus in rural Colorado. The house provides a relaxing environment for research, a substantial research library (in addition to the research library at Crow Canyon), and laboratory space. Researchers at the Institute house can enjoy a direct connection to Crow Canyon's high-speed internet and research database.</p>
+
+        </div>
+    </section>
+</div>
+
+<div class="full-img" style="background-image: url('/assets/img/house_wide_front.jpg'); height: 400px;">
+</div>
+
+<div class="container">
+    <section class="about">
+            <div class="row content-1" style="padding-top: 20px; padding-bottom: 50px;">
+                <div class="col-md-5 col-xs-12">
+                    <h6 style="font-family: 'Raleway', sans-serif; font-size: 28px;">Amenities</h6>
+
+                    <ul>
+
+                        <li>2 bedrooms, 1 bath</li>
+                        <li>Full kitchen with gas range</li>
+                        <li>Dining room with seating for eight</li>
+                        <li>Garage for lab work or equipment storage</li>
+                        <li>Laundry washer/dryer</li>
+                        <li>Private yard/garden</li>
+                        <li>High-speed internet with access to Crow Canyon's research database</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-7 hidden-sm hidden-xs">
+                    <img class="img-responsive img-rounded" src="/assets/img/house_dining.jpg" alt="">
+                </div>
+            </div>
+    </section>
+</div>
+
+<div class="full-img" style="background-image: url('/assets/img/house_ute.jpg'); height: 600px;">
+</div>

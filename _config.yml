@@ -1,0 +1,24 @@
+permalink: /blog/:categories/:title
+
+paginate_path: "news/page:num"
+paginate: 3
+highlighter: rouge
+
+deploy: false
+encoding: utf-8
+
+baseurl: /institute
+
+gems: ['jekyll-paginate']
+
+exclude: ['gh-pages','README.md','*.Rmd','deploy.sh','rebuild.sh','.DS_Store','README.md','LICENSE']
+
+# Google services
+google_analytics: UA-78448357-1
+
+page_gen:
+  - data: 'associates'
+    template: 'person'
+    name: 'tag'
+    dir: '/people/associates'
+    base: '/institute'

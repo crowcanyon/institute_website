@@ -1,0 +1,46 @@
+{% include header.html %}
+
+<body>
+     {% include navbar.html %}
+    <div class="page-wrapper">
+
+        <section class="blog-3">
+            <div class="container">
+                <div class="title">
+                    <img src="{{ site.baseurl }}/assets/img/CCAC_bowl.svg" alt="">
+                    <h3>{{ page.full_name }}</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                    
+                        {{ page.desc_long | markdownify }}
+                        
+                        <br>
+                        <br>
+                        email: <a href="mailto:{{page.email}}">{{page.email}}</a><br>
+                        website: <a href="{{page.web}}">{{page.web}}</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The tags -->
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+                {% for project in page.projects %}
+                <a href="{{ site.baseurl }}/projects/{{ project }}" class="badge badge-success">
+                    <span class="project_tag">
+                {{ project }}
+            </span>
+                </a>
+                {% if forloop.last != true %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <!-- End tags -->
+
+        {% include footer.html %}
+
+    </div>
+</body>
