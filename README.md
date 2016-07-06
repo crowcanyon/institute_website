@@ -35,7 +35,7 @@ $ gem install jekyll-paginate
 Once you have git, Ruby, and Jekyll installed, you can clone or fork this repository to your local machine to start developing. Do so by using the  `git clone` command:
 
 ```
-$ git clone https://github.com/crowcanyon/crowcanyon.github.io
+$ git clone https://github.com/crowcanyon/institute_website
 
 ```
 
