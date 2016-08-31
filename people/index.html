@@ -30,6 +30,19 @@ title: "The Research Institute Community"
         {% include_relative people_flow.html %}
 
     </section>
+    
+    <section class="crew-3  col-xs-12" id="interns">
+        <br>
+
+        <h3>Research Interns</h3>
+        <p>Crow Canyon offers summer internships in archaeology, education, and American indian initiatives. Our interns spend  extended periods working with Crow Canyon researchers and participating in educational programs. Many Crow Canyon interns have gone on to have illustrious careers in academia, government, and the private sector. Interested in being an intern at Crow Canyon? Visit <a href="http://www.crowcanyon.org/index.php/internships">here</a> to apply!</p>
+        <br>
+        <br>
+        
+        {% assign theList = site.data.interns | sort: 'sort' %}
+        {% include_relative people_flow.html %}
+
+    </section>
 
     <section class="crew-3  col-xs-12" id="volunteers">
 
