@@ -5,13 +5,34 @@
 #  desc: >
 #    The Inspiring Students Project is a partnership between Pueblo communities and the Crow Canyon Archaeological Center to develop student programs focused on issues that Pueblo people themselves have identified as priorities: the preservation of their native languages, cultures, and histories; providing culturally relevant educational experiences that inspire students to succeed academically and professionally; and creating more economic opportunities within native communities.
 
-- name: "The Pueblo Farming Project"
-  tag: pfp
-  url: http://www.crowcanyon.org/index.php/pueblo-farming-project
-  date: 2006–now
-  desc: >
-    The Pueblo Farming Project is a collaboration between Crow Canyon and the Hopi Cultural Preservation Office to understand ancient maize (corn) agriculture in the Mesa Verde region through documenting traditional ecological knowledge, experimental gardens, and genetic analysis. Since summer of 2008, traditional Hopi farmers have traveled to Crow Canyon to plant maize gardens on the Crow Canyon campus. We've found that traditional varieties of Hopi corn, when planted using Hopi cultivation methods, grow well in the Mesa Verde region.
+#- name: The Northern Chaco Outliers Project
+#  tag: chaco
+#  url:
+#  date: 2016–now
+#  desc: >
+#    ...
     
+- name: Crow Canyon Digital Archaeology Tools and Access
+  tag: data
+  url:
+  date: 2016–now
+  desc: >
+    The *Crow Canyon Digital Archaeology Tools and Access* (CC-DATA) project will modernize Crow Canyon Archaeological Center’s research database to enable diverse forms of access for researchers, descendent communities, and the broader public. The project focuses on integrating legacy archaeological datasets recorded over the last 33 years with  born-digital  data such as drone maps, 3D laser scans, and digital photographs. This modern database will be deeply geospatial, and will enable connections to external collections databases. Building upon such a database, the CC-DATA project will develop digital humanities products such as richly-interactive data exploration tools and multivocal archaeology portals that blend Western and indigenous perspectives about the past. Crow Canyon has been a leader in completing archaeological research with the assistance of the public—this effort will invite the public to join in the co-creation of archaeological knowledge that is interdisciplinary, multicultural, and relevant in the 21st century. Read our recent proposal to the NEH [here](http://www.crowcanyon.org/institute/projects/proposals/CC-DATA.pdf).
+
+- name: "The Effect of Crop Failure on Small Scale Village Organization"
+  tag: unt
+  url: 
+  date: 2015–now
+  desc: |
+    *The Effect of Crop Failure on Small Scale Village Organization* will study soils around Ancestral Pueblo villages in southwestern Colorado at a much finer resolution than ever before, asking, "during the latest occupations, when people moved to water sources and farther from their fields, what options and risks did they face in terms of farming opportunities?" This new project uses contemporary modeling approaches from surface hydrology to determine soil moisture potential in watersheds near villages. High-resolution images of landscapes around large villages will be obtained using an Unmanned Aerial Vehicle (UAV or “drone”). Together, these data will be used to assess the risk of maize crop failure by determining which soils have high and low potential for reaching the wilting point for corn. Maps will be produced so that these dynamics can be studied from the village looking outward at the scale that past farmers walked the landscapes they lived within.
+
+- name: "Synthesizing Knowledge of Past Environments"
+  tag: skope
+  url: http://www.envirecon.org/
+  date: 2014-now
+  desc: >
+    *Synthesizing Knowledge of Past Environments* (SKOPE) is an NSF-funded effort to bring paleoenvironmental data to researchers and the public through an intuitive, map-based user interface, and also to improve the capacity of researchers to do reproducible paleoenvironmental research. The project is a collaboration between Crow Canyon, Washington State University, Arizona State University, and the National Center for Supercomputing Applications at the University of Illinois, Urbana-Champaign. In response to a specific query, SKOPE will extract the latest data from diverse online databases. Using explicit and repeatable procedures, it will process the data to yield a cutting-edge synthesis of environmental information specifically tailored to the user’s request. Initially the tool will be developed for the Southwest US over the last 2000 years, but it will be designed to be readily extended to other places and times.
+
 - name: "The Basketmaker Communities Project"
   tag: bcp
   url: http://www.crowcanyon.org/index.php/basketmaker-communities-project
@@ -19,6 +40,13 @@
   thumbnail:
   desc: >
     Starting in 2011, Crow Canyon archaeologists, assisted by student and adult participants in the Center’s archaeology programs, began field investigations at selected Basketmaker III sites in Indian Camp Ranch. Because relatively little is known about this early chapter in Pueblo history―and because this was Crow Canyon’s first foray into Basketmaker archaeology―researchers had many questions. Where did the Pueblo people who first settled the central Mesa Verde region come from? How and why did early communities develop? What impact did a growing farming population have on the environment? And what are the environmental and social legacies of the Basketmakers on later Pueblo populations in the region?
+
+- name: "The Pueblo Farming Project"
+  tag: pfp
+  url: http://www.crowcanyon.org/index.php/pueblo-farming-project
+  date: 2006–now
+  desc: >
+    The Pueblo Farming Project is a collaboration between Crow Canyon and the Hopi Cultural Preservation Office to understand ancient maize (corn) agriculture in the Mesa Verde region through documenting traditional ecological knowledge, experimental gardens, and genetic analysis. Since summer of 2008, traditional Hopi farmers have traveled to Crow Canyon to plant maize gardens on the Crow Canyon campus. We've found that traditional varieties of Hopi corn, when planted using Hopi cultivation methods, grow well in the Mesa Verde region.
     
 - name: "The Village Ecodynamics Project"
   tag: vep
@@ -29,38 +57,4 @@
     geographers, computer scientists and economists seeking to explain key 
     aspects of the late prehistory of the northern Southwest through empirical 
     research and modeling.
-
-- name: "Synthesizing Knowledge of Past Environments"
-  tag: skope
-  url: http://www.envirecon.org/
-  date: 2014-now
-  desc: >
-    SKOPE is an effort to bring paleoenvironmental data to researchers and the public
-    through an intuitive, map-based user interface, and also to improve the capacity
-    of researchers to do reproducible paleoenvironmental research.
-    The project is a collaboration between Crow Canyon, Washington State University,
-    Arizona State University, and the National Center for Supercomputing Applications
-    at the University of Illinois, Urbana-Champaign.
-
-- name: "The Effect of Crop Failure on Small Scale Village Organization"
-  tag: unt
-  url: 
-  date: 2015–now
-  desc: |
-    *The Effect of Crop Failure on Small Scale Village Organization* will study soils around Ancestral Pueblo villages in southwestern Colorado at a much finer resolution than ever before, asking, "during the latest occupations, when people moved to water sources and farther from their fields, what options and risks did they face in terms of farming opportunities?" This new project uses contemporary modeling approaches from surface hydrology to determine soil moisture potential in watersheds near villages. High-resolution images of landscapes around large villages will be obtained using an Unmanned Aerial Vehicle (UAV or “drone”). Together, these data will be used to assess the risk of maize crop failure by determining which soils have high and low potential for reaching the wilting point for corn. Maps will be produced so that these dynamics can be studied from the village looking outward at the scale that past farmers walked the landscapes they lived within.
-
-#- name: The Northern Chaco Outliers Project
-#  tag: chaco
-#  url:
-#  date: 2016–now
-#  desc: >
-#    ...
-    
-#- name: The Crow Canyon Database Project
-#  tag: data
-#  url:
-#  date: 2015–now
-#  desc: >
-#    The Crow Canyon Database Project seeks to upgrade both the back-end and front-end access
-#    to the Crow Canyon research database.
     
