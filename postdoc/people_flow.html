@@ -1,0 +1,45 @@
+{% for person in theList %}
+    <div class="row">
+        <div class="col-xs-12">
+
+            <h2 style="display: inline;">
+                {{ person.full_name }}{% if person.role %},
+                    <h2 style="font-size: 20px; display: inline;">
+                        {{ person.role }} [<a href="{{ site.baseurl }}/people/vita/{{person.tag}}.pdf"target="_blank">CV</a>]
+                    </h2>
+                {% endif %}
+            </h2>
+        
+            <h3 style="font-size: 20px; font-weight: 400;">
+                {{ person.degree }}
+            </h3>
+        </div>
+    </div>
+    
+    <div class="clearfix"></div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <div class="text-center">
+                
+                <img class="img-responsive img-rounded" src="{{ site.baseurl }}/people/photos/{{person.tag}}_large.jpg">
+                
+            </div>
+        </div>
+        
+        <div class="hidden-lg hidden-md">&nbsp;</div>
+        
+        <div class="col-xs-12 col-md-8">
+            {{ person.desc | markdownify }}
+        </div>
+    </div>
+    
+    <div class="clearfix"></div>
+
+    {% unless forloop.last %}
+        <div class="col-xs-12">
+            <hr />
+        </div>
+    {% endunless %}
+
+{% endfor %}
