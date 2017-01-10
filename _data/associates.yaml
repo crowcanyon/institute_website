@@ -11,7 +11,7 @@
     Karen is a paleoethnobotanist focused on plants 
     important in subsistence and for other daily needs.
   desc_long: |
-    Karen R. Adams (PhD University of Arizona 1988). An independent consultant, Karen currently serves as the archaeobotanical analyst at Crow Canyon. Karen trains and supervises summer interns in the analysis of archaeobotanical samples. In addition, she is working on a synthesis of Crow Canyon's archaeobotanical projects.
+    Karen R. Adams (PhD University of Arizona 1988) is an independent consultant currently serving as the archaeobotanical analyst at Crow Canyon. Karen trains and supervises summer interns in the analysis of archaeobotanical samples. In addition, she is working on a synthesis of Crow Canyon's archaeobotanical projects.
 
     Karen has been a full-time practicing archaeobotanist in the US Southwest for over 40 years, and has experience in all major Southwestern US culture areas including in Chihuahua, Mexico. She also has experience in all time periods from the Archaic to the Historic. She has an extensive publication list that includes journal articles, book chapters, and contract literature reports (available on request). She has written about the archaeological plant record from the standpoint of individual plants, ancient human communities, geographical sub-regions, and the US Southwest as a whole. Her double-training in Anthropology (1968 BA, Miami University, Ohio) and Ecology and Evolutionary Biology (1988 PhD, University of Arizona) has allowed her to integrate both disciplines in all projects that she works on. Her most recent publications include a study of a poorly known New World domesticate, little barley grass; a synthesis of the archaeology and agronomy of ancient maize farming; and tobacco found inside yucca quids recovered from Antelope Cave in northwestern Arizona.
   
@@ -31,6 +31,26 @@
     Fumiyasu Arakawa (PhD Washington State University 2006) is a Museum Director and Assistant Professor of Anthropology at New Mexico State University. Fumi worked at Crow Canyon in a variety of positions, including as the chief laboratory analyst and as a member of the Village Ecodynamics Project (VEP). He incorporates Crow Canyon and VEP data into his ongoing research into settlement patterns in southeastern Utah.
 
     Fumi's background is primarily in geology and lithic analyses, with further expertise in Geographic Information System (GIS) technologies, pottery temper analysis, and archaeological methods and theories. His published research addresses topics including cultural trajectory, gender division of labor, migration, and exchange systems in ancient societies. His research interests include the prehistoric American Southwest, lithic technological organization, pottery in the Mesa Verde region, and sociopolitical organization in tribal-level societies. He is also interested in the philosophy and anthropology of Japanese and East Asian cultures. He has been conducting field projects in the southeastern Utah region and the Gila Forks near the Mimbres Valley area in southern New Mexico.
+    
+- full_name: Kyle Bocinsky
+  sort: Bocinsky, Kyle
+  tag: kyle_bocinsky
+  title: Independent Researcher
+  url: /institute/people/associates/kyle_bocinsky.html
+  email: kbocinsky@crowcanyon.org
+  web: http://bocinsky.io
+  projects:
+    - vep
+    - pfp
+    - skope
+    - cc-data
+  desc: >
+    Kyle is a computational archaeologist interested in 
+    human-environment interactions in the past, present, and future.
+  desc_long: |
+    Kyle Bocinsky (PhD Washington State University 2014) is an independent archaeological consultant for the Research Institute and adjunct research faculty in the department of anthropology at Washington State University. In 2016, Kyle was the Director of Sponsored Projects at Crow Canyon. Kyle manages several Research Institute projects, including the Pueblo Farming Project, the SKOPE project, the CC-DATA project, and the computational legacy of the Village Ecodynamics Project. Prior to joining Crow Canyon in 2016, Kyle was a postdoctoral research fellow at WSU as part of the <a href="http://www.openskope.org/" target="_blank">SKOPE project</a>—Synthesizing Knowledge of Past Environments—where he developed large-scale, high-resolution paleoclimate reconstructions for the southwestern US. Kyle is a long-time member of the <a href="http://village.anth.wsu.edu" target="_blank">Village Ecodynamics Project (VEP)</a>, and has been collaborating with Crow Canyon researchers for almost a decade. He was part of the field crew in the 2009–2012 <a href="http://village.anth.wsu.edu/sites/village.anth.wsu.edu/files/publications/FINAL_REPORT_VEP_2012_noUTMs.pdf" target="_blank">Mesa Verde Community Center Survey</a>, and helped develop substantial portions of the VEP computer simulation of ancient Pueblo society. He currently lives in Pullman, Washington.
+    
+    Kyle's scholarly interests include computational archaeology, complexity, GIScience, human behavioral ecology, foraging theory, and plant and animal domestication. Kyle is the author of several software packages in the <a href="http://www.r-project.org" target="_blank"><i>R</i></a> programming language, including <a href="https://github.com/bocinsky/FedData" target="_blank">FedData</a> for easy access to federated datasets, and <a href="https://github.com/bocinsky/PaleoCAR" target="_blank">PaleoCAR</a> for high-resolution paleoclimate reconstruction. He currently has research projects on the <a href="https://www.academia.edu/8672802/Extrinsic_site_defensibility_and_landscape-based_archaeological_inference_An_example_from_the_Northwest_Coast" target="_blank">Northwest Coast of North America</a>, sub-Saharan Africa, and on the <a href="https://www.academia.edu/12513276/Comment_on_Agriculture_facilitated_permanent_human_occupation_of_the_Tibetan_Plateau_after_3600_B.P._" target="_blank">Tibetan Plateau</a>.
   
 - full_name: Jon Driver
   sort: Driver, Jon
@@ -40,7 +60,7 @@
   email: driver@sfu.ca
   web: http://www.sfu.ca/archaeology/faculty/driver.html
   projects:
-    - Sand Canyon Archaeological Project
+    - sand_canyon
   desc: >
     Jon has studied animal bones from archaeological 
     sites in the Southwest for thirty years.
@@ -57,8 +77,8 @@
   web: https://sites.google.com/site/cfadem/
   url: /institute/people/associates/cynthia_fadem.html
   projects:
-    - Pueblo Farming Project
-    - Basketmaker Communities Project
+    - pfp
+    - bcp
   desc: >
      Cynthia is a geoarchaeologist who studies the interaction between culture and natural materials, primarily soils and lithics.
   desc_long: |
@@ -74,7 +94,7 @@
   email: glowacki.3@nd.edu
   web: http://anthropology.nd.edu/faculty-and-staff/faculty-by-alpha/donna-glowacki/
   projects:
-    - Village Ecodynamics Project
+    - vep
   desc: >
     Donna is an anthropological archaeologist studying 
     transformation, disruption, and resiliency in Southwestern societies.
@@ -91,8 +111,8 @@
   url: /institute/people/associates/tim_kohler.html
   web: http://libarts.wsu.edu/anthro/faculty/kohler.html
   projects:
-    - Village Ecodynamics Project
-    - Synthesizing Knowledge of Past Environments
+    - vep
+    - skope
   desc: >
     Time applies method and theory from the study of 
     complex adaptive systems to the study of prehistoric societies.
@@ -172,7 +192,7 @@
   email: lnagaoka@unt.edu
   web: http://nagaoka.weebly.com
   projects:
-    - Pueblo Farming Project
+    - pfp
   desc: >
     Lisa is a zooarchaeologist interested in archaeological method and theory, 
     philosophy of science, conservation biology, and biogeography.
@@ -189,7 +209,7 @@
   email: scott.ortman@colorado.edu
   web: http://www.colorado.edu/anthropology/gradstudy/scott-ortman
   projects:
-    - Village Ecodynamics Project
+    - vep
   desc: >
     Scott works on the initial formation of ancestral Pueblo society, its transformation 
     into the Rio Grande pueblos, and the practical value of archaeological findings for society today.
@@ -271,8 +291,8 @@
   email: wolverton@unt.edu
   web: http://wolvertonunt.weebly.com
   projects:
-    - Pueblo Farming Project
-    - Haynie Assessment Project
+    - pfp
+    - ncop
   desc: >
     Steve Wolverton is an ethnobiologist who specializes 
     in environmental archaeology and animal ecology.
