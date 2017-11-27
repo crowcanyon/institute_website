@@ -1,0 +1,22 @@
+---
+layout: dummy_page
+title: "Crow Canyon Archaeological Center Publications"
+---
+
+<div class="row">
+    <div class="container">
+
+        <section class="about" id="Publications">
+            <div class="row">
+
+                <h3>2017 Publications from the Research Institute community</h3>
+
+                {% capture my_include %} {% include_relative publications.md %} {% endcapture %}
+                {{ my_include | markdownify }}
+
+            </div>
+        </section>
+
+        <hr />
+    </div>
+</div>
