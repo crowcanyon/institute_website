@@ -34,11 +34,27 @@ Kuckelman, Kristin A.
 Kuckelman, Kristin A., John J. Crandal, and Debra L. Martin
 : 2017 Caught in a Cataclysm: Effects of Pueblo Warfare on Noncombatants in the Northern Southwest. In *Bioarchaeology of Women and Children in Times of War: Case Studies from the Americas*, edited by Debra L. Martin and Caryn Tegtmeyer, pp. 93–110. Springer, Cham, Switzerland.
 
+Larson, Dorothy, Kari L. Schleher, Ann F. Ramenofsky, Jonathan Van Hoose, and Jennifer Boyd Dyer
+: 2017 Artifacts at San Marcos Pueblo. In *The archaeology and history of Pueblo San Marcos, New Mexico*, edited by Ann F. Ramenofsky and Kari L. Schleher, pp. 89–106. The University of New Mexico Press, Albuquerque, NM. 
+
 Lipe, Bill, Donna Seifert, and Mark Varien
 : 2017 Remembering the Listers: Florence (1920–2016) and Bob (1915–1990). *Journal of Anthropological Research* 73(2):145–148.
 
 Ortman, Scott G., and Grant D. Coffey
 : 2017 Settlement Scaling in Middle-Range Societies. *American Antiquity* 82(4):662–682.
+
+Ramenofsky, Ann F. and Kari L. Schleher, editors
+: 2017 *The archaeology and history of Pueblo San Marcos, New Mexico*. The University of New Mexico Press, Albuquerque, NM. 
+
+Ramenofsky, Ann F. and Kari L. Schleher
+: 2017 Introducing San Marcos:  A Protohistoric Town in North Central New Mexico. In *The archaeology and history of Pueblo San Marcos, New Mexico*, edited by Ann F. Ramenofsky and Kari L. Schleher, pp. 1–8. The University of New Mexico Press, Albuquerque, NM. 
+
+Ramenofsky, Ann F., Kari L. Schleher, and Ariane O. Pinson
+: 2017 Situating San Marcos: Space, Time, and Tradition. In *The archaeology and history of Pueblo San Marcos, New Mexico*, edited by Ann F. Ramenofsky and Kari L. Schleher, pp. 9–22. The University of New Mexico Press, Albuquerque, NM. 
+
+Schleher, Kari L. 
+: 2017 Learning and Production: The Northern Rio Grande Glaze Ware Community of Practice at San Marcos Pueblo during the Protohistoric Period. In *The archaeology and history of Pueblo San Marcos, New Mexico*, edited by Ann F. Ramenofsky and Kari L. Schleher, pp. 107–128. The University of New Mexico Press, Albuquerque, NM. 
+
 
 Varien, Mark D., James M. Potter, Tito E. Naranjo
 : 2017 Water, Wind, Breath: Seeking Abundance in the North American Southwest. In *Abundance: The Archaeology of Plentitude*, pp. 65-94, edited by Monica L. Smith, pp. 65–94. University Press of Colorado, Boulder, Colorado.
