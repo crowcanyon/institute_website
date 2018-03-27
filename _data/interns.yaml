@@ -1,4 +1,4 @@
-- full_name: Rebecca Morris
+- full_name: Rebecca Morris (alumnus)
   sort: Morris, Rebecca
   tag: rebecca_morris
   title: Laboratory Intern
@@ -7,7 +7,7 @@
   desc: >
      Rebecca studies the interplay between community conformity and individuality through household archaeology and ceramic analysis.
 
-- full_name: Allison Jordan
+- full_name: Allison Jordan (alumnus)
   sort: Jordan, Allison
   tag: allison_jordan
   title: Laboratory Intern
@@ -16,15 +16,15 @@
   desc: >
      Allison is interested in lithic technologies, rock art, and prehistoric trade connections throughout the Southwest.
 
-#- full_name: Jonathan Dombrosky (alumnus)
-#  sort: Dombrosky, Jonathan
-#  tag: jonathan_dombrosky
-#  title: Seasonal Field Archaeologist
-#  url: https://www.researchgate.net/profile/Jonathan_Dombrosky
-#  projects:
-#  desc: >
-#     Jonathan is a zooarchaeologist interested in human 
-#     interactions with fishes and raptors in New Mexico.
+- full_name: Jonathan Dombrosky (alumnus)
+  sort: Dombrosky, Jonathan
+  tag: jonathan_dombrosky
+  title: Seasonal Field Archaeologist
+  url: https://www.researchgate.net/profile/Jonathan_Dombrosky
+  projects:
+  desc: >
+     Jonathan is a zooarchaeologist interested in human 
+     interactions with fishes and raptors in New Mexico.
      
 - full_name: Bethany Wurster (alumnus)
   sort: Wurster, Bethany

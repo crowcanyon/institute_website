@@ -9,7 +9,7 @@ encoding: utf-8
 
 baseurl: /institute
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 
 exclude: ['gh-pages','README.md','*.Rmd','deploy.sh','rebuild.sh','.DS_Store','README.md','LICENSE']
 
