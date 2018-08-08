@@ -936,6 +936,9 @@ section * {
     height: auto;
     max-width: 100%;
     vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 0;
     -ms-interpolation-mode: bicubic;
     padding-top: 40px;
@@ -944,7 +947,7 @@ section * {
 
 .full-img {
     position: relative;
-    background-image: url('/assets/common-files/img/content/community.jpg');
+    background-image: url('/assets/img/community.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

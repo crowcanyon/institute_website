@@ -1,12 +1,12 @@
-- full_name: Bob Bernhart
-  sort: Bernhart, Bob
-  tag: bob_bernhart
-  title: Lab Volunteer
-  url:
-  projects:
-  desc: >
-    Bob is an avocational archaeologist, cultural 
-    site steward, and Crow Canyon lab volunteer.
+#- full_name: Bob Bernhart
+#  sort: Bernhart, Bob
+#  tag: bob_bernhart
+#  title: Lab Volunteer
+#  url:
+#  projects:
+#  desc: >
+#    Bob is an avocational archaeologist, cultural 
+#    site steward, and Crow Canyon lab volunteer.
     
 - full_name: Read Brugger
   sort: Brugger, Read
@@ -18,15 +18,15 @@
     Read is excited to explore the intersection of Pueblo farmers' 
     enduring agricultural practices and today's rapidly changing climate.
   
-- full_name: Anne Dehnisch
-  sort: Dehnisch, Anne
-  tag: anne_dehnisch
-  title: Lab Volunteer
-  url:
-  projects:
-  desc: >
-    Anne is interested in the change and continuity of ancient pottery forms, 
-    indications of regionalism, decorative motifs and stylistic development.
+#- full_name: Anne Dehnisch
+#  sort: Dehnisch, Anne
+#  tag: anne_dehnisch
+#  title: Lab Volunteer
+#  url:
+#  projects:
+#  desc: >
+#    Anne is interested in the change and continuity of ancient pottery forms, 
+#    indications of regionalism, decorative motifs and stylistic development.
     
 
 - full_name: Jane Dillard

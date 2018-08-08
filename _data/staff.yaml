@@ -1,12 +1,28 @@
-#- full_name: Kyle Bocinsky
-#  sort: Bocinsky, Kyle
-#  tag: kyle_bocinsky
-#  title: Director of Sponsored Projects
-#  url: http://bocinsky.io
-#  projects: [vep,pfp,skope]
-#  desc: >
-#    Kyle is a computational archaeologist interested in 
-#    human-environment interactions in the past, present, and future.
+- full_name: Liz Perry
+  sort: Perry, Liz
+  tag: liz_perry
+  title: President and CEO, Crow Canyon
+  url:
+  projects:
+  desc: >
+    
+- full_name: Kyle Bocinsky
+  sort: Bocinsky, Kyle
+  tag: kyle_bocinsky
+  title: Director of the Research Institute
+  url: http://bocinsky.io
+  projects: [vep,pfp,skope]
+  desc: >
+    Kyle is a computational archaeologist interested in 
+    human-environment interactions in the past, present, and future.
+
+- full_name: Leigh Cominiello
+  sort: Cominiello, Leigh
+  tag: leigh_cominiello
+  title: Laboratory Education Coordinator
+  url:
+  projects:
+  desc: >
 
 - full_name: David Boyle
   sort: Boyle, David
@@ -18,10 +34,10 @@
     David works for the Cultural Explorations 
     Department as a travel coordinator and guide.
 
-- full_name: Kate Cochran
+- full_name: Kate Hughes
   sort: Cochran, Kate
   tag: kate_cochran
-  title: Archaeology Laboratory Assistant
+  title: Laboratory Analyst
   url: 
   projects:
   desc: >
@@ -195,15 +211,15 @@
      Dylan is interested in applying innovative solutions in database systems, 
      GIScience, and advanced computing technology to archaeological research and education programs.
   
-- full_name: Becca Simon
-  sort: Simon, Becca
-  tag: becca_simon
-  title: Field Archaeologist
-  url: https://crowcanyon.academia.edu/BeccaSimon
-  projects:
-  desc: >
-    Becca is a multidisciplinary archaeologist interested in 
-    public outreach, archaeology education, and culture contact studies.
+#- full_name: Becca Simon
+#  sort: Simon, Becca
+#  tag: becca_simon
+#  title: Field Archaeologist
+#  url: https://crowcanyon.academia.edu/BeccaSimon
+#  projects:
+#  desc: >
+#    Becca is a multidisciplinary archaeologist interested in 
+#    public outreach, archaeology education, and culture contact studies.
   
 #- full_name: Dan Simplicio
 #  tag: dan_simplicio
@@ -212,15 +228,15 @@
 #  projects:
 #  desc:
   
-- full_name: Caitlin Sommer
-  sort: Sommer, Caitlin
-  tag: caitlin_sommer
-  title: Supervisory Archaeologist
-  url: 
-  projects:
-  desc: >
-    Caitlin is a field archaeologist interested in using 
-    knowledge gained in the past to inform the present.
+#- full_name: Caitlin Sommer
+#  sort: Sommer, Caitlin
+#  tag: caitlin_sommer
+#  title: Supervisory Archaeologist
+#  url: 
+#  projects:
+#  desc: >
+#    Caitlin is a field archaeologist interested in using 
+#    knowledge gained in the past to inform the present.
   
 #- full_name: Kathy Stemmler
 #  sort: Stemmler, Kathy

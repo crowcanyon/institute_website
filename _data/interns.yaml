@@ -1,55 +1,73 @@
-- full_name: Rebecca Morris (alumnus)
-  sort: Morris, Rebecca
+- full_name: Sam Bomkamp
+  sort: 1 Bomkamp, Sam
+  tag: sam_bomkamp
+  title: 2018 Field Intern
+  url: mailto:sbomkamp@uwm.edu
+  projects:
+  desc: >
+     Sam studies Southwest archaeology, museum studies, and prehistoric interactions between Paquimé and the American Southwest.
+
+- full_name: Katie Portman
+  sort: 1 Portman, Katie
+  tag: katie_portman
+  title: 2018 Field Intern
+  url: mailto:kportma2@alumni.nd.edu
+  projects:
+  desc: >
+     Katie is interested in water management, community organization, and how contemporary people interact with the past.
+
+- full_name: Rebecca Morris
+  sort: 3 Morris, Rebecca
   tag: rebecca_morris
-  title: Laboratory Intern
+  title: 2016 Laboratory Intern
   url: www.linkedin.com/in/rebmorr
   projects:
   desc: >
      Rebecca studies the interplay between community conformity and individuality through household archaeology and ceramic analysis.
 
-- full_name: Allison Jordan (alumnus)
-  sort: Jordan, Allison
+- full_name: Allison Jordan
+  sort: 3 Jordan, Allison
   tag: allison_jordan
-  title: Laboratory Intern
+  title: 2016 Laboratory Intern
   url: www.linkedin.com/in/allisonnjordan
   projects:
   desc: >
      Allison is interested in lithic technologies, rock art, and prehistoric trade connections throughout the Southwest.
 
-- full_name: Jonathan Dombrosky (alumnus)
-  sort: Dombrosky, Jonathan
+- full_name: Jonathan Dombrosky
+  sort: 3 Dombrosky, Jonathan
   tag: jonathan_dombrosky
-  title: Seasonal Field Archaeologist
+  title: 2016 Field Intern
   url: https://www.researchgate.net/profile/Jonathan_Dombrosky
   projects:
   desc: >
      Jonathan is a zooarchaeologist interested in human 
      interactions with fishes and raptors in New Mexico.
      
-- full_name: Bethany Wurster (alumnus)
-  sort: Wurster, Bethany
+- full_name: Bethany Wurster
+  sort: 3 Wurster, Bethany
   tag: bethany_wurster
-  title: Laboratory Intern
+  title: 2016 Laboratory Intern
   url: https://www.linkedin.com/in/bethany-wurster-08693a8b
   projects:
   desc: >
      Bethany is a graduate student at Utah State University interested in 
      lithic tool organization, and lab and curatorial research.
      
-- full_name: Tara Beresh (alumnus)
-  sort: Beresh, Tara
+- full_name: Tara Beresh
+  sort: 3 Beresh, Tara
   tag: tara_beresh
-  title: Laboratory Intern
+  title: 2016 Laboratory Intern
   url: https://www.linkedin.com/in/tara-beresh-72640763
   projects:
   desc: >
      Tara is a Technical Specialist at UNM's Office of Contract Archaeology 
      interested in perishable material culture and provenience analysis. 
      
-- full_name: Kelsey Hanson (alumnus)
-  sort: Hanson, Kelsey
+- full_name: Kelsey Hanson
+  sort: 3 Hanson, Kelsey
   tag: kelsey_hanson
-  title: Field Intern
+  title: 2016 Field Intern
   url: https://www.linkedin.com/in/kelsey-hanson-b7413078
   projects:
   desc: >
