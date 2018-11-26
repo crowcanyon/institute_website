@@ -1,7 +1,7 @@
 module Jekyll
   module RSSURLFilter
     def relative_urls_to_absolute(input)
-      url = "http://www.crowcanyon.org/institute/"
+      url = "/institute/"
       input.gsub('src="/', 'src="' + url + '/')
       # input.gsub('src="/', 'src="' + url + '/').gsub('href="/', 'href="' + url + '/')
     end

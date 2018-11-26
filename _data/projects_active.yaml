@@ -1,13 +1,13 @@
 #- name: Inspiring Students
 #  tag: INSPIRE
-#  url: http://www.crowcanyon.org/index.php/inspiring-students-project
+#  url: /inspiring-students-project
 #  date: 2014–now
 #  desc: >
 #    The Inspiring Students Project is a partnership between Pueblo communities and the Crow Canyon Archaeological Center to develop student programs focused on issues that Pueblo people themselves have identified as priorities: the preservation of their native languages, cultures, and histories; providing culturally relevant educational experiences that inspire students to succeed academically and professionally; and creating more economic opportunities within native communities.
 
 - name: "The Northern Chaco Outliers Project"
   tag: ncop
-  url: http://www.crowcanyon.org/index.php/chaco-outliers-project
+  url: /chaco-outliers-project
   date: 2016–now
   desc: >
     The *Northern Chaco Outliers Project* focuses on the Haynie site, a multi-component ancestral Pueblo village with two Pueblo II period (AD 950–1150) great houses located northeast of Cortez, Colorado. The great and small houses at the Haynie site were part of the larger Lakeview community, a 1 km² area comprised of the densest concentration of great houses found north of the San Juan River. Previous research in the Lakeview group and an initial assessment of the Haynie site during the 2016 field season suggests that the great houses were constructed above earlier architecture dating to the Basketmaker III and Pueblo I periods (AD 500–950). Excavation at the Haynie site will seek to determine precisely when the site was initially occupied, when it was subsequently depopulated, and how this related to other great houses located in the Lakeview community and the larger region. Data collected during the Northern Chaco Outliers Project will also allow contribute to a greater understanding of resource sustainability, the natural and cultural impacts of environmental downturns, ancient communities and regional systems, migration, and human/environment relationships.
@@ -17,7 +17,7 @@
   url:
   date: 2016–now
   desc: >
-    The *Crow Canyon Digital Archaeology Tools and Access* (CC-DATA) project will modernize Crow Canyon Archaeological Center’s research database to enable diverse forms of access for researchers, descendent communities, and the broader public. The project focuses on integrating legacy archaeological datasets recorded over the last 33 years with  born-digital  data such as drone maps, 3D laser scans, and digital photographs. This modern database will be deeply geospatial, and will enable connections to external collections databases. Building upon such a database, the CC-DATA project will develop digital humanities products such as richly-interactive data exploration tools and multivocal archaeology portals that blend Western and indigenous perspectives about the past. Crow Canyon has been a leader in completing archaeological research with the assistance of the public—this effort will invite the public to join in the co-creation of archaeological knowledge that is interdisciplinary, multicultural, and relevant in the 21st century. Read our recent proposal to the NEH [here](http://www.crowcanyon.org/institute/projects/proposals/CC-DATA.pdf).
+    The *Crow Canyon Digital Archaeology Tools and Access* (CC-DATA) project will modernize Crow Canyon Archaeological Center’s research database to enable diverse forms of access for researchers, descendent communities, and the broader public. The project focuses on integrating legacy archaeological datasets recorded over the last 33 years with  born-digital  data such as drone maps, 3D laser scans, and digital photographs. This modern database will be deeply geospatial, and will enable connections to external collections databases. Building upon such a database, the CC-DATA project will develop digital humanities products such as richly-interactive data exploration tools and multivocal archaeology portals that blend Western and indigenous perspectives about the past. Crow Canyon has been a leader in completing archaeological research with the assistance of the public—this effort will invite the public to join in the co-creation of archaeological knowledge that is interdisciplinary, multicultural, and relevant in the 21st century. Read our recent proposal to the NEH [here](/institute/projects/proposals/CC-DATA.pdf).
 
 - name: "The Effect of Crop Failure on Small Scale Village Organization"
   tag: unt
@@ -28,14 +28,14 @@
 
 - name: "Synthesizing Knowledge of Past Environments"
   tag: skope
-  url: http://www.openskope.org/
+  url: https://www.openskope.org/
   date: 2014-now
   desc: >
     *Synthesizing Knowledge of Past Environments* (SKOPE) is an NSF-funded effort to bring paleoenvironmental data to researchers and the public through an intuitive, map-based user interface, and also to improve the capacity of researchers to do reproducible paleoenvironmental research. The project is a collaboration between Crow Canyon, Washington State University, Arizona State University, and the National Center for Supercomputing Applications at the University of Illinois, Urbana-Champaign. In response to a specific query, SKOPE will extract the latest data from diverse online databases. Using explicit and repeatable procedures, it will process the data to yield a cutting-edge synthesis of environmental information specifically tailored to the user’s request. Initially the tool will be developed for the Southwest US over the last 2000 years, but it will be designed to be readily extended to other places and times.
 
 - name: "The Basketmaker Communities Project"
   tag: bcp
-  url: http://www.crowcanyon.org/index.php/basketmaker-communities-project
+  url: /basketmaker-communities-project
   date: 2011–now
   thumbnail:
   desc: >
@@ -43,7 +43,7 @@
 
 - name: "The Pueblo Farming Project"
   tag: pfp
-  url: http://www.crowcanyon.org/index.php/pueblo-farming-project
+  url: /pueblo-farming-project
   date: 2006–now
   desc: >
     The Pueblo Farming Project is a collaboration between Crow Canyon and the Hopi Cultural Preservation Office to understand ancient maize (corn) agriculture in the Mesa Verde region through documenting traditional ecological knowledge, experimental gardens, and genetic analysis. Since summer of 2008, traditional Hopi farmers have traveled to Crow Canyon to plant maize gardens on the Crow Canyon campus. We've found that traditional varieties of Hopi corn, when planted using Hopi cultivation methods, grow well in the Mesa Verde region.

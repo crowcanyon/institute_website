@@ -1,20 +1,20 @@
 
-!['research institute website'](http://crowcanyon.github.io/assets/common-files/img/content/Institute_logo.svg)
+!['research institute website'](https://crowcanyon.github.io/assets/common-files/img/content/Institute_logo.svg)
 
 #### Welcome!
 
-This is git repository for the [Research Institute at Crow Canyon's website](http://institute-test.crowcanyon.org/). The [Crow Canyon Archaeological Center](http://www.crowcanyon.org/) is a 501(c)3 nonprofit organization whose mission is to advance and share knowledge of the human experience through archaeological research, education programs, and partnerships with American Indians. The Research Institute serves to integrate scholarly activities across Crow Canyon and to coordinate collaborations with external researchers, including Native American scholars.
+This is git repository for the [Research Institute at Crow Canyon's website](https://www.crowcanyon.org/institute/). The [Crow Canyon Archaeological Center](https://www.crowcanyon.org/) is a 501(c)3 nonprofit organization whose mission is to advance and share knowledge of the human experience through archaeological research, education programs, and partnerships with American Indians. The Research Institute serves to integrate scholarly activities across Crow Canyon and to coordinate collaborations with external researchers, including Native American scholars.
 
-The Research Institute website is built on a very simple software stack, including [Jekyll](https://jekyllrb.com/) for creating a static, blog-aware site, [Bootstrap](http://getbootstrap.com/) for a mobile-ready user interface, [Liquid](https://shopify.github.io/liquid/) for nearly effortless templating, and [jQuery](https://jquery.com/) for client-side scripting. It is meant to be built locally, then pushed to the "/institute" subdirectory at www.crowcanyon.org.
+The Research Institute website is built on a very simple software stack, including [Jekyll](https://jekyllrb.com/) for creating a static, blog-aware site, [Bootstrap](https://getbootstrap.com/) for a mobile-ready user interface, [Liquid](https://shopify.github.io/liquid/) for nearly effortless templating, and [jQuery](https://jquery.com/) for client-side scripting. It is meant to be built locally, then pushed to the "/institute" subdirectory at www.crowcanyon.org.
 
 __License__
 
-For more information see the [LICENSE](http://crowcanyon.github.io/LICENSE) file. © Crow Canyon Archaeological Center 2016.
+For more information see the [LICENSE](https://crowcanyon.github.io/LICENSE) file. © Crow Canyon Archaeological Center 2016.
 
 -------
 #### Cloning, Building, and Deploying to GitHub Pages
 
-To begin understanding how Jekyll and GitHub Pages work together, check out [Jonathan McGlone's fantastic how-to guide](http://jmcglone.com/guides/github-pages/) on setting up a site on Github Pages. For a basic overview of what git and version-control repositories are, have a look at the [GitHub Guides](https://guides.github.com/).
+To begin understanding how Jekyll and GitHub Pages work together, check out [Jonathan McGlone's fantastic how-to guide](https://jmcglone.com/guides/github-pages/) on setting up a site on Github Pages. For a basic overview of what git and version-control repositories are, have a look at the [GitHub Guides](https://guides.github.com/).
 
 ##### Installing command-line tools
 To manage this (and any other GitHub Pages site), you must install several command-line tools, including [git](https://git-scm.com/), [Ruby](https://www.ruby-lang.org/en/), and the Jekyll and github-pages Ruby gems. To install the Ruby gems, run the following:
@@ -56,7 +56,7 @@ $ jekyll serve
 Preview the site at `http://localhost:4000` on a Linux or Windows machine, or `http://127.0.0.1:4000/` on OS X. This is a live preview, so changes you make to files in the `crowcanyon.github.io` will be reflected in the locally served site.
 
 ##### Making changes
-This website is designed to maximaze abstraction using Liquid templating; most of the repeated elements that appear in the compiled web pages are constructed from Liquid templates and YAML serialized data. For example, the [Projects](http://crowcanyon.github.io/Projects/) and [People](http://crowcanyon.github.io/Projects/) pages are built this way. The YAML data exist in the `_data` directory, and the templates in the respective `index.html` files for each page.
+This website is designed to maximaze abstraction using Liquid templating; most of the repeated elements that appear in the compiled web pages are constructed from Liquid templates and YAML serialized data. For example, the [Projects](https://crowcanyon.github.io/Projects/) and [People](https://crowcanyon.github.io/Projects/) pages are built this way. The YAML data exist in the `_data` directory, and the templates in the respective `index.html` files for each page.
 
 There are four datasets in particular:
 - `_data/projects.yaml` contains the information and links to each of Crow Canyon's research projects

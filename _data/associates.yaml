@@ -54,7 +54,7 @@
   title: New Mexico State University
   url: /institute/people/associates/fumi_arakawa.html
   email: farakawa@ad.nmsu.edu
-  web: http://anthropology.nmsu.edu/anth-faculty/f-arakawa/
+  web: https://anthropology.nmsu.edu/anthropology-faculty/f-arakawa/
   projects:
     - vep
   desc: >
@@ -65,33 +65,13 @@
 
     Fumi's background is primarily in geology and lithic analyses, with further expertise in Geographic Information System (GIS) technologies, pottery temper analysis, and archaeological methods and theories. His published research addresses topics including cultural trajectory, gender division of labor, migration, and exchange systems in ancient societies. His research interests include the prehistoric American Southwest, lithic technological organization, pottery in the Mesa Verde region, and sociopolitical organization in tribal-level societies. He is also interested in the philosophy and anthropology of Japanese and East Asian cultures. He has been conducting field projects in the southeastern Utah region and the Gila Forks near the Mimbres Valley area in southern New Mexico.
     
-#- full_name: Kyle Bocinsky
-#  sort: Bocinsky, Kyle
-#  tag: kyle_bocinsky
-#  title: University of Montana
-#  url: /institute/people/associates/kyle_bocinsky.html
-#  email: kbocinsky@crowcanyon.org
-#  web: http://bocinsky.io
-#  projects:
-#    - vep
-#    - pfp
-#    - skope
-#    - cc-data
-#  desc: >
-#    Kyle is a computational archaeologist interested in 
-#    human-environment interactions in the past, present, and future.
-#  desc_long: |
-#    Kyle Bocinsky (PhD Washington State University 2014) is researcher with the Montana Climate Office at the University of Montana, hourly research faculty with the Division of Earth and Ecosystem Sciences at the Desert Research Institute, and adjunct research faculty in the department of anthropology at Washington State University. In 2016, Kyle was the Director of Sponsored Projects at Crow Canyon. Kyle currently manages several Research Institute projects, including the Pueblo Farming Project, the SKOPE project, the CC-DATA project, and the computational legacy of the Village Ecodynamics Project. Prior to joining Crow Canyon in 2016, Kyle was a postdoctoral research fellow at WSU as part of the <a href="http://www.openskope.org/" target="_blank">SKOPE project</a>—Synthesizing Knowledge of Past Environments—where he developed large-scale, high-resolution paleoclimate reconstructions for the southwestern US. Kyle is a long-time member of the <a href="http://village.anth.wsu.edu" target="_blank">Village Ecodynamics Project (VEP)</a>, and has been collaborating with Crow Canyon researchers for almost a decade. He was part of the field crew in the 2009–2012 <a href="http://village.anth.wsu.edu/sites/village.anth.wsu.edu/files/publications/FINAL_REPORT_VEP_2012_noUTMs.pdf" target="_blank">Mesa Verde Community Center Survey</a>, and helped develop substantial portions of the VEP computer simulation of ancient Pueblo society. He lives with his husband John and their golden retriever Molly in Missoula, Montana.
-#    
-#    Kyle's scholarly interests include computational archaeology, complexity, GIScience, human behavioral ecology, foraging theory, and plant and animal domestication. Kyle is the author of several software packages in the <a href="http://www.r-project.org" target="_blank"><i>R</i></a> programming language, including <a href="https://github.com/bocinsky/FedData" target="_blank">FedData</a> for easy access to federated datasets, and <a href="https://github.com/bocinsky/PaleoCAR" target="_blank">PaleoCAR</a> for high-resolution paleoclimate reconstruction. He currently has research projects on the <a href="https://www.academia.edu/8672802/Extrinsic_site_defensibility_and_landscape-based_archaeological_inference_An_example_from_the_Northwest_Coast" target="_blank">Northwest Coast of North America</a>, sub-Saharan Africa, and on the <a href="https://www.academia.edu/12513276/Comment_on_Agriculture_facilitated_permanent_human_occupation_of_the_Tibetan_Plateau_after_3600_B.P._" target="_blank">Tibetan Plateau</a>.
-    
 - full_name: Stefani Crabtree
   sort: Crabtree, Stefani
   tag: stefani_crabtree
   title: Pennsylvania State University
   url: /institute/people/associates/stefani_crabtree.html
   email: stefanicrabtree@gmail.com
-  web: www.stefanicrabtree.com
+  web: https://stefanicrabtree.com/
   projects:
     - vep
   desc: >
@@ -108,7 +88,7 @@
   title: Simon Fraser University
   url: /institute/people/associates/jon_driver.html
   email: driver@sfu.ca
-  web: http://www.sfu.ca/archaeology/faculty/driver.html
+  web: https://www.sfu.ca/archaeology/faculty/driver.html
   projects:
     - sand_canyon
   desc: >
@@ -117,7 +97,7 @@
   desc_long: |
     Jonathan C. Driver (PhD University of Calgary 1978) is currently a Vice President and Provost at Simon Fraser University. Jon is a former faunal analyst for Crow Canyon. He continues to work with Crow Canyon on a number of publications that use these data.
 
-    Jon’s career in archaeology has included direction of excavations at Medieval sites in England and Paleoindian sites in western Canada. However, most of his research has been in the lab, studying ancient animal bones, with a focus on the American Southwest. He has taught archaeology at Simon Fraser University (Canada) for more than 30 years, where he has served as department chair, dean of graduate studies, and provost and vice-president, academic (to 2016). He has also been active in the Society for American Archaeology as a director and member of various committees. He currently serves as president of the Western Canadian Universities Marine Sciences Society that operates the Bamfield Marine Sciences Centre on the west coast of Vancouver Island. In addition to his work with CCAC, his most recent research concerns bison hunting on the Plains and the analysis of faunal remains from Pueblo Bonito (New Mexico). He is also working with the Treaty 8 Tribal Association in northeast British Columbia to create multiple ways to access information about Tse'K'wa (Charlie Lake Cave)—a site that documents First Nations land use of the Peace River region since the end of the last ice age. Learn more about that project [here](http://summit.sfu.ca/collection/218).
+    Jon’s career in archaeology has included direction of excavations at Medieval sites in England and Paleoindian sites in western Canada. However, most of his research has been in the lab, studying ancient animal bones, with a focus on the American Southwest. He has taught archaeology at Simon Fraser University (Canada) for more than 30 years, where he has served as department chair, dean of graduate studies, and provost and vice-president, academic (to 2016). He has also been active in the Society for American Archaeology as a director and member of various committees. He currently serves as president of the Western Canadian Universities Marine Sciences Society that operates the Bamfield Marine Sciences Centre on the west coast of Vancouver Island. In addition to his work with CCAC, his most recent research concerns bison hunting on the Plains and the analysis of faunal remains from Pueblo Bonito (New Mexico). He is also working with the Treaty 8 Tribal Association in northeast British Columbia to create multiple ways to access information about Tse'K'wa (Charlie Lake Cave)—a site that documents First Nations land use of the Peace River region since the end of the last ice age. Learn more about that project [here](https://summit.sfu.ca/collection/218).
   
 - full_name: Cynthia Fadem
   sort: Fadem, Cynthia
@@ -142,7 +122,7 @@
   title: University of Notre Dame
   url: /institute/people/associates/donna_glowacki.html
   email: glowacki.3@nd.edu
-  web: http://anthropology.nd.edu/faculty-and-staff/faculty-by-alpha/donna-glowacki/
+  web: https://anthropology.nd.edu/faculty-and-staff/faculty-by-alpha/donna-glowacki/
   projects:
     - vep
   desc: >
@@ -151,7 +131,7 @@
   desc_long: |
     Donna M. Glowacki (PhD Arizona State University 2006) is an Associate Professor of anthropology at the University of Notre Dame. She has worked with Crow Canyon in a variety of positions since 1994 and most currently was a senior researcher on the Village Ecodynamics Project (VEP) where she lead the Mesa Verde Community Center survey from 2009–2012. She continues to collaborate with Crow Canyon on publications that utilize data from Crow Canyon’s excavations and the VEP.
 
-    Donna has conducted fieldwork at seventy-six of the largest sites in the central Mesa Verde region and is interested in understanding long-term and large-scale social change including the role of religious transformation and sociopolitical reorganization in the regional depopulation of the northern San Juan region at the end of the 1200s. She recently completed in fieldwork at Mesa Verde National Park that focuses on village formation and aggregation at Spruce Tree House cliff dwelling and other large sites throughout the Park. She is the author of [*Living and Leaving: A Social History of Regional Depopulation in Thirteenth-Century Mesa Verde*](http://www.uapress.arizona.edu/Books/bid2516.htm) (The University of Arizona Press).
+    Donna has conducted fieldwork at seventy-six of the largest sites in the central Mesa Verde region and is interested in understanding long-term and large-scale social change including the role of religious transformation and sociopolitical reorganization in the regional depopulation of the northern San Juan region at the end of the 1200s. She recently completed in fieldwork at Mesa Verde National Park that focuses on village formation and aggregation at Spruce Tree House cliff dwelling and other large sites throughout the Park. She is the author of [*Living and Leaving: A Social History of Regional Depopulation in Thirteenth-Century Mesa Verde*](https://uapress.arizona.edu/book/living-and-leaving) (The University of Arizona Press).
   
 - full_name: Tim Kohler
   sort: Kohler, Tim
@@ -159,7 +139,7 @@
   title: Washington State University
   email: tako@wsu.edu
   url: /institute/people/associates/tim_kohler.html
-  web: http://libarts.wsu.edu/anthro/faculty/kohler.html
+  web: https://anthro.wsu.edu/faculty-and-staff/tim-a-kohler/
   projects:
     - vep
     - skope
@@ -177,7 +157,7 @@
   title: University of Colorado, Boulder
   url: /institute/people/associates/steve_lekson.html
   email: lekson@colorado.edu
-  web: https://anthropology.colorado.edu/directory/faculty-bios/steve-lekson/
+  web: https://www.colorado.edu/anthropology/stephen-lekson
   projects:
   desc: >
     Steve’s research focuses mainly on Chaco Canyon and 
@@ -240,7 +220,7 @@
   title: University of North Texas
   url: /institute/people/associates/lisa_nagaoka.html
   email: lnagaoka@unt.edu
-  web: http://nagaoka.weebly.com
+  web: https://nagaoka.weebly.com/
   projects:
     - pfp
   desc: >
@@ -257,7 +237,7 @@
   title: University of Colorado, Boulder
   url: /institute/people/associates/scott_ortman.html
   email: scott.ortman@colorado.edu
-  web: http://www.colorado.edu/anthropology/gradstudy/scott-ortman
+  web: https://www.colorado.edu/anthropology/gradstudy/scott-ortman
   projects:
     - vep
   desc: >
@@ -306,7 +286,7 @@
   tag: devin_white
   title: Oak Ridge National Laboratory
   email: whiteda1@ornl.gov
-  web: http://web.ornl.gov/sci/gist/staff_bios/staff_whited.shtml
+  web: https://scholar.google.com/citations?user=jRGupqoAAAAJ&hl=en
   url: /institute/people/associates/devin_white.html
   projects:
   desc: >
@@ -339,7 +319,7 @@
   title: University of North Texas
   url: /institute/people/associates/steve_wolverton.html
   email: wolverton@unt.edu
-  web: http://wolvertonunt.weebly.com
+  web: https://wolvertonunt.weebly.com
   projects:
     - pfp
     - ncop
