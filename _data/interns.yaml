@@ -1,3 +1,93 @@
+- full_name: Catherine Elliot
+  sort: 1 Elliot, Catherine
+  tag: catherine_elliot
+  title: 2018 Lab Intern
+  url: mailto:celliott2432@gmail.com
+  projects:
+  desc: >
+     Catherine is interested in digital archaeology, online archiving, and data curation.
+
+- full_name: Laura Brumbaugh
+  sort: 1 Brumbaugh, Laura
+  tag: laura_brumbaugh
+  title: 2018 Field Intern
+  url: mailto:laura.e.brumbaugh@gmail.com
+  projects:
+  desc: >
+     Laura is interested in the material evidence of intercultural 
+     interaction and integration, as well as material and social inequality.
+
+- full_name: Roy Palmer
+  sort: 1 Palmer, Roy
+  tag: roy_palmer
+  title: 2018 Education Intern
+  url: mailto:rpalmer1@my.westga.edu
+  projects:
+  desc: >
+     Roy is a graduate student in public history, focusing on 
+     Southeastern indigenous populations, and public archaeology pedagogy.
+
+- full_name: Genevieve Woodhead
+  sort: 2 Woodhead, Genevieve
+  tag: genevieve_woodhead
+  title: 2017 Lab Intern
+  url: https://anthropology.unm.edu/people/grad-students/profile/genevive-woodhead.html
+  projects:
+  desc: >
+     Genevieve is an archaeology graduate student studying art, 
+     symbolic imagery, and representation in the Southwest.
+
+- full_name: Christy Stewart
+  sort: 2 Stewart, Christy
+  tag: christy_stewart
+  title: 2017 Lab Intern
+  url: mailto:stewart.christy15@gmail.com
+  projects:
+  desc: >
+     Christy is interested in ceramics, 
+     population movement, and Puebloan archaeology.
+
+- full_name: Emily Tarantini
+  sort: 1 Tarantini, Emily
+  tag: emily_tarantini
+  title: 2018 Lab Intern
+  url: mailto:emtarantini@gmail.com
+  projects:
+  desc: >
+     Emily is interested in archaeological 
+     collections management, museum anthropology, and repatriation.
+
+- full_name: Jessica Petrie
+  sort: 2 Petrie, Jessica
+  tag: jessica_petrie
+  title: 2017 Field Intern
+  url: mailto:jessicapetrie53@gmail.com
+  projects:
+  desc: >
+     Jessica is a graduate student at Newcastle University, 
+     UK interested in classical archaeology and geology.
+
+
+- full_name: Anna Dempsey
+  sort: 1 Dempsey, Anna
+  tag: anna_dempsey
+  title: 2018 Lab Intern<br>2013 Field Intern
+  url: mailto:annadempsey8@gmail.com
+  projects:
+  desc: >
+     Anna is interested in Ancestral Puebloan archaeology, 
+     cultural resource management on public lands, and groundstone technologies.
+
+- full_name: Meadow Coldon
+  sort: 1 Coldon, Meadow
+  tag: meadow_coldon
+  title: 2018 Field Intern
+  url: mailto:meadowcoldon@gmail.com
+  projects:
+  desc: >
+     Meadow is interested in textile processing, communication, 
+     and illustrated representations of material culture.
+
 - full_name: Sam Bomkamp
   sort: 1 Bomkamp, Sam
   tag: sam_bomkamp
