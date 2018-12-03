@@ -5,6 +5,13 @@
 #  desc: >
 #    The Inspiring Students Project is a partnership between Pueblo communities and the Crow Canyon Archaeological Center to develop student programs focused on issues that Pueblo people themselves have identified as priorities: the preservation of their native languages, cultures, and histories; providing culturally relevant educational experiences that inspire students to succeed academically and professionally; and creating more economic opportunities within native communities.
 
+- name: "Ancestral Pueblo Maize Database"
+  tag: mzdb
+  url:
+  date: 2019–now
+  desc: >
+    It is difficult to overstate the importance of maize to Pueblo people, whose ancestral homeland includes southwestern Colorado. For archaeologists, the introduction of maize agriculture marks the beginning of Pueblo society. Similarly, Pueblo oral history ties their origins to the adoption of maize agriculture. As part of the Ancestral Pueblo Maize Database project, the Research Institute at Crow Canyon and the Hopi Cultural Preservation Office are building the first-ever comprehensive, publicly-accessible database of curated ancestral Pueblo maize. Through a series of workshops and museum visits, our team of Hopi scholars and archaeologists will assess connections between ancient maize and modern Pueblo varieties, and determine criteria that specimens must meet to be viable for future analyses. After filling data gaps on maize collections in Colorado museums, the team will develop a research design for a large-scale, multi-method analysis of ancient maize. Read our funded proposal to the History Colorado State Historical Fund [here](/institute/projects/proposals/SHF_Proposal_Maize_Database_public.pdf).
+
 - name: "The Northern Chaco Outliers Project"
   tag: ncop
   url: /chaco-outliers-project
