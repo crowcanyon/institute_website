@@ -49,9 +49,9 @@
 - full_name: Grant Coffey
   sort: Coffey, Grant
   tag: grant_coffey
-  title: Supervisory Archaeologist
+  title: Research Database Administrator
   url: 
-  projects: [pfp]
+  projects: [pfp,ncop]
   desc: >
     Grant is interested in how communities 
     organize, evolve, and interact with each other.
@@ -118,25 +118,25 @@
 #  projects:
 #  desc:
   
-- full_name: Todd Kearns
-  sort: Kearns, Todd
-  tag: todd_kearns
-  title: Explorations Coordinator
-  url: 
-  projects:
-  desc: >
-    Todd is a travel coordinator, interested in past 
-    and present cultural landscapes of the Southwest.
+#- full_name: Todd Kearns
+#  sort: Kearns, Todd
+#  tag: todd_kearns
+#  title: Explorations Coordinator
+#  url: 
+#  projects:
+#  desc: >
+#    Todd is a travel coordinator, interested in past 
+#    and present cultural landscapes of the Southwest.
   
-- full_name: Kristin Kuckelman
-  sort: Kuckelman, Kristin
-  tag: kristin_kuckelman
-  title: Research Publications Manager
-  url: 
-  projects:
-  desc: >
-    Kristin is a research archaeologist, writer, and editor 
-    who studies violence, subsistence stress, and paleohydrology.
+#- full_name: Kristin Kuckelman
+#  sort: Kuckelman, Kristin
+#  tag: kristin_kuckelman
+#  title: Research Publications Manager
+#  url: 
+#  projects:
+#  desc: >
+#    Kristin is a research archaeologist, writer, and editor 
+#    who studies violence, subsistence stress, and paleohydrology.
   
 #- full_name: Michael Lorusso
 #  sort: Lorusso, Michael
