@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 ## Deploy
 
 bash rebuild.sh

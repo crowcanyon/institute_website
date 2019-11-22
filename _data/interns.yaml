@@ -1,5 +1,77 @@
+- full_name: Sarah Amelia Foster
+  sort: 96 Foster, Sarah Amelia
+  tag: sarah_amelia_foster
+  title: 2019 Lab Intern
+  url: mailto:sfoster1985@unm.edu
+  projects:
+  desc: >
+     Sarah studies the preceramic and early agricultural periods of the northern Southwest region of the U.S.
+
+- full_name: Mariana Lujan Sanders
+  sort: 96 Lujan Sanders, Mariana
+  tag: mariana_lujan_sanders
+  title: 2019 Lab Intern
+  url: mailto:mlujansanders@gmail.com
+  projects:
+  desc: >
+     Mariana studies indigenous cultural continuity and change in former Spanish colonies.
+     
+- full_name: Esmeralda Ferrales
+  sort: 96 Ferrales, Esmeralda
+  tag: esmeralda_ferrales
+  title: 2019 Field Intern
+  url: mailto:esmeferr@nmsu.edu
+  projects:
+  desc: >
+     Esmeralda is an archaeologist interested in the archaeology of death, ritual, and religion within the Southwest.
+
+- full_name: Sarah Seaberg
+  sort: 96 Seaberg, Sarah
+  tag: sarah_seaberg
+  title: 2019 Field Intern
+  url: mailto:sarahkathrynseaberg@gmail.com
+  projects:
+  desc: >
+     Sarah is a recently graduated anthropology student, interested in traditional ecological knowledge and human-environment interactions over time.
+
+- full_name: Amanda Dobrov
+  sort: 96 Dobrov, Amanda
+  tag: amanda_dobrov
+  title: 2019 Field Intern
+  url: mailto:adobrov@berkeley.edu
+  projects:
+  desc: >
+     Amanda is interested in household archaeology, ceramic analysis, artifact digitization, and community-based archaeology.
+
+- full_name: Addy Zeigen
+  sort: 96 Zeigen, Addy
+  tag: addy_zeigen
+  title: 2019 American Indian Initiatives Intern
+  url: mailto:AZeigen@crowcanyon.org
+  projects:
+  desc: >
+     Addy is interested in Heritage Resource Management, Collaborative Archaeology, and community engagement and outreach.
+
+- full_name: Sandra Zarzycka
+  sort: 96 Zarzycka, Sandra
+  tag: sandra_zarzycka
+  title: 2019 Field Intern
+  url: mailto:sanzarzycka@gmail.com
+  projects:
+  desc: >
+     Sandra is interested in understanding human-environmental interactions within the American Southwest using geographical and geoarchaeological perspectives.
+
+- full_name: Thea O'Hea
+  sort: 96 OHea, Thea
+  tag: thea_ohea
+  title: 2019 Education Intern
+  url: mailto:tgohea@bu.edu
+  projects:
+  desc: >
+     Thea is an archaeology student at Boston University interested in the history of Puebloan ceramic artistry.
+
 - full_name: Catherine Elliot
-  sort: 1 Elliot, Catherine
+  sort: 97 Elliot, Catherine
   tag: catherine_elliot
   title: 2018 Lab Intern
   url: mailto:celliott2432@gmail.com
@@ -8,7 +80,7 @@
      Catherine is interested in digital archaeology, online archiving, and data curation.
 
 - full_name: Laura Brumbaugh
-  sort: 1 Brumbaugh, Laura
+  sort: 97 Brumbaugh, Laura
   tag: laura_brumbaugh
   title: 2018 Field Intern
   url: mailto:laura.e.brumbaugh@gmail.com
@@ -18,7 +90,7 @@
      interaction and integration, as well as material and social inequality.
 
 - full_name: Roy Palmer
-  sort: 1 Palmer, Roy
+  sort: 97 Palmer, Roy
   tag: roy_palmer
   title: 2018 Education Intern
   url: mailto:rpalmer1@my.westga.edu
@@ -28,7 +100,7 @@
      Southeastern indigenous populations, and public archaeology pedagogy.
 
 - full_name: Genevieve Woodhead
-  sort: 2 Woodhead, Genevieve
+  sort: 98 Woodhead, Genevieve
   tag: genevieve_woodhead
   title: 2017 Lab Intern
   url: https://anthropology.unm.edu/people/grad-students/profile/genevive-woodhead.html
@@ -38,7 +110,7 @@
      symbolic imagery, and representation in the Southwest.
 
 - full_name: Christy Stewart
-  sort: 2 Stewart, Christy
+  sort: 98 Stewart, Christy
   tag: christy_stewart
   title: 2017 Lab Intern
   url: mailto:stewart.christy15@gmail.com
@@ -48,7 +120,7 @@
      population movement, and Puebloan archaeology.
 
 - full_name: Emily Tarantini
-  sort: 1 Tarantini, Emily
+  sort: 97 Tarantini, Emily
   tag: emily_tarantini
   title: 2018 Lab Intern
   url: mailto:emtarantini@gmail.com
@@ -58,7 +130,7 @@
      collections management, museum anthropology, and repatriation.
 
 - full_name: Jessica Petrie
-  sort: 2 Petrie, Jessica
+  sort: 98 Petrie, Jessica
   tag: jessica_petrie
   title: 2017 Field Intern
   url: mailto:jessicapetrie53@gmail.com
@@ -69,7 +141,7 @@
 
 
 - full_name: Anna Dempsey
-  sort: 1 Dempsey, Anna
+  sort: 97 Dempsey, Anna
   tag: anna_dempsey
   title: 2018 Lab Intern<br>2013 Field Intern
   url: mailto:annadempsey8@gmail.com
@@ -79,7 +151,7 @@
      cultural resource management on public lands, and groundstone technologies.
 
 - full_name: Meadow Coldon
-  sort: 1 Coldon, Meadow
+  sort: 97 Coldon, Meadow
   tag: meadow_coldon
   title: 2018 Field Intern
   url: mailto:meadowcoldon@gmail.com
@@ -89,7 +161,7 @@
      and illustrated representations of material culture.
 
 - full_name: Sam Bomkamp
-  sort: 1 Bomkamp, Sam
+  sort: 97 Bomkamp, Sam
   tag: sam_bomkamp
   title: 2018 Field Intern
   url: mailto:sbomkamp@uwm.edu
@@ -98,7 +170,7 @@
      Sam studies Southwest archaeology, museum studies, and prehistoric interactions between Paquimé and the American Southwest.
 
 - full_name: Katie Portman
-  sort: 1 Portman, Katie
+  sort: 97 Portman, Katie
   tag: katie_portman
   title: 2018 Field Intern
   url: mailto:kportma2@alumni.nd.edu
@@ -107,7 +179,7 @@
      Katie is interested in water management, community organization, and how contemporary people interact with the past.
 
 - full_name: Rebecca Morris
-  sort: 3 Morris, Rebecca
+  sort: 99 Morris, Rebecca
   tag: rebecca_morris
   title: 2016 Laboratory Intern
   url: www.linkedin.com/in/rebmorr
@@ -116,7 +188,7 @@
      Rebecca studies the interplay between community conformity and individuality through household archaeology and ceramic analysis.
 
 - full_name: Allison Jordan
-  sort: 3 Jordan, Allison
+  sort: 99 Jordan, Allison
   tag: allison_jordan
   title: 2016 Laboratory Intern
   url: www.linkedin.com/in/allisonnjordan
@@ -125,7 +197,7 @@
      Allison is interested in lithic technologies, rock art, and prehistoric trade connections throughout the Southwest.
 
 - full_name: Jonathan Dombrosky
-  sort: 3 Dombrosky, Jonathan
+  sort: 99 Dombrosky, Jonathan
   tag: jonathan_dombrosky
   title: 2016 Field Intern
   url: https://www.researchgate.net/profile/Jonathan_Dombrosky
@@ -135,7 +207,7 @@
      interactions with fishes and raptors in New Mexico.
      
 - full_name: Bethany Wurster
-  sort: 3 Wurster, Bethany
+  sort: 99 Wurster, Bethany
   tag: bethany_wurster
   title: 2016 Laboratory Intern
   url: https://www.linkedin.com/in/bethany-wurster-08693a8b
@@ -145,7 +217,7 @@
      lithic tool organization, and lab and curatorial research.
      
 - full_name: Tara Beresh
-  sort: 3 Beresh, Tara
+  sort: 99 Beresh, Tara
   tag: tara_beresh
   title: 2016 Laboratory Intern
   url: https://www.linkedin.com/in/tara-beresh-72640763
@@ -155,7 +227,7 @@
      interested in perishable material culture and provenience analysis. 
      
 - full_name: Kelsey Hanson
-  sort: 3 Hanson, Kelsey
+  sort: 99 Hanson, Kelsey
   tag: kelsey_hanson
   title: 2016 Field Intern
   url: https://www.linkedin.com/in/kelsey-hanson-b7413078

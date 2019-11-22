@@ -1,10 +1,10 @@
-- full_name: Liz Perry
-  sort: Perry, Liz
-  tag: liz_perry
-  title: President and CEO, Crow Canyon
-  url:
-  projects:
-  desc: >
+#- full_name: Liz Perry
+#  sort: Perry, Liz
+#  tag: liz_perry
+#  title: President and CEO, Crow Canyon
+#  url:
+#  projects:
+#  desc: >
     
 - full_name: Kyle Bocinsky
   sort: Bocinsky, Kyle
@@ -15,16 +15,6 @@
   desc: >
     Kyle is a computational archaeologist interested in 
     human-environment interactions in the past, present, and future.
-
-- full_name: Leigh Cominiello
-  sort: Cominiello, Leigh
-  tag: leigh_cominiello
-  title: Laboratory Education Coordinator
-  url:
-  projects:
-  desc: >
-    Leigh specializes in prehispanic and historic 
-    material culture studies, dendrochronology, and the Chaco regional system.
 
 - full_name: David Boyle
   sort: Boyle, David
@@ -37,7 +27,7 @@
     Department as a travel coordinator and guide.
 
 - full_name: Kate Hughes
-  sort: Cochran, Kate
+  sort: Hughes, Kate
   tag: kate_cochran
   title: Laboratory Analyst
   url: 
@@ -56,14 +46,6 @@
     Grant is interested in how communities 
     organize, evolve, and interact with each other.
   
-#- full_name: Anna Cole
-#  sort: Cole, Anna
-#  tag: anna_cole
-#  title: Curriculum Developer
-#  url: 
-#  projects:
-#  desc:
-  
 - full_name: Steve Copeland
   sort: Copeland, Steve
   tag: steve_copeland
@@ -77,7 +59,7 @@
 - full_name: Shanna Diederichs
   sort: Diederichs, Shanna
   tag: shanna_diederichs
-  title: Supervisory Archaeologist
+  title: Research Archaeologist
   url: 
   projects:
   desc: >
@@ -87,25 +69,17 @@
 - full_name: Paul Ermigiotti
   sort: Ermigiotti, Paul
   tag: paul_ermigiotti
-  title: Educator Archaeologist
+  title: Educator/Researcher
   url: 
   projects:
   desc: >
     Paul is interested in natural history, pottery replication, 
     corn domestication and its importance in pueblo culture.
   
-#- full_name: Deborah Gangloff
-#  sort: Gangloff, Deborah
-#  tag: deborah_gangloff
-#  title: President and Chief Executive Officer
-#  url: 
-#  projects:
-#  desc:
-  
 #- full_name: Becky Hammond
 #  sort: Hammond, Becky
 #  tag: becky_hammond
-#  title: Educator/American Indian Initiatives Coordinator
+#  title: Educator
 #  url: 
 #  projects:
 #  desc:
@@ -118,36 +92,6 @@
 #  projects:
 #  desc:
   
-#- full_name: Todd Kearns
-#  sort: Kearns, Todd
-#  tag: todd_kearns
-#  title: Explorations Coordinator
-#  url: 
-#  projects:
-#  desc: >
-#    Todd is a travel coordinator, interested in past 
-#    and present cultural landscapes of the Southwest.
-  
-#- full_name: Kristin Kuckelman
-#  sort: Kuckelman, Kristin
-#  tag: kristin_kuckelman
-#  title: Research Publications Manager
-#  url: 
-#  projects:
-#  desc: >
-#    Kristin is a research archaeologist, writer, and editor 
-#    who studies violence, subsistence stress, and paleohydrology.
-  
-#- full_name: Michael Lorusso
-#  sort: Lorusso, Michael
-#  tag: michael_lorusso
-#  title: Laboratory Education Coordinator
-#  url: 
-#  projects:
-#  desc: >
-#      Michael is a lab archaeologist interested in southwest 
-#      material culture, collections management, and public archaeology.
-  
 - full_name: Jamie Merewether
   sort: Merewether, Jamie
   tag: jamie_merewether
@@ -158,35 +102,20 @@
     Jamie is interested in material culture and 
     what it can tell us about life in the past.
   
-#- full_name: Sharon Milholland
-#  tag: sharon_milholland
-#  title: Director of Programs
-#  url: 
-#  projects:
-#  desc:
-  
 - full_name: Sarah Payne
   sort: Payne, Sarah
   tag: sarah_payne
-  title: Director of Cultural Explorations
+  title: Chief Outreach Officer
   url: https://www.linkedin.com/in/sarah-payne-6798931a
   projects:
   desc: >
     Sarah is an anthropologist interested in the impact 
     of cultural tourism and experiential learning.
   
-#- full_name: Shirley Powell
-#  sort: Powell, Shirley
-#  tag: shirley_powell
-#  title: Vice President of Programs
-#  url: 
-#  projects:
-#  desc:
-  
 - full_name: Susan Ryan
   sort: Ryan, Susan
   tag: susan_ryan
-  title: Director of Archaeology
+  title: Chief Mission Officer
   url: 
   projects:
   desc: >
@@ -213,37 +142,9 @@
      Dylan is interested in applying innovative solutions in database systems, 
      GIScience, and advanced computing technology to archaeological research and education programs.
   
-#- full_name: Becca Simon
-#  sort: Simon, Becca
-#  tag: becca_simon
-#  title: Field Archaeologist
-#  url: https://crowcanyon.academia.edu/BeccaSimon
-#  projects:
-#  desc: >
-#    Becca is a multidisciplinary archaeologist interested in 
-#    public outreach, archaeology education, and culture contact studies.
-  
 #- full_name: Dan Simplicio
 #  tag: dan_simplicio
 #  title: Cultural Specialist
-#  url: 
-#  projects:
-#  desc:
-  
-#- full_name: Caitlin Sommer
-#  sort: Sommer, Caitlin
-#  tag: caitlin_sommer
-#  title: Supervisory Archaeologist
-#  url: 
-#  projects:
-#  desc: >
-#    Caitlin is a field archaeologist interested in using 
-#    knowledge gained in the past to inform the present.
-  
-#- full_name: Kathy Stemmler
-#  sort: Stemmler, Kathy
-#  tag: kathy_stemmler
-#  title: Director of Education
 #  url: 
 #  projects:
 #  desc:
