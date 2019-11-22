@@ -5,7 +5,27 @@
 #  url:
 #  projects:
 #  desc: >
-    
+
+- full_name: Tayler Hasbrouck
+  sort: Hasbrouck, Tayler
+  tag: tayler_hasbrouck
+  title: Explorations Coordinator
+  url: mailto:thasbrouck@crowcanyon.org
+  projects:
+  desc: >
+    Tayler helps people forge bonds with diverse cultures and 
+    histories through travel and experiential education.
+
+- full_name: Kellam Throgmorton
+  sort: Throgmorton, Kellam
+  tag: kellam_throgmorton
+  title: Supervisory Archaeologist
+  url: https://crowcanyon.academia.edu/KellamThrogmorton
+  projects: [ncop]
+  desc: >
+    Kellam is a public archaeologist whose research addresses 
+    cultural landscapes, monumentality, and political organization.
+
 - full_name: Kyle Bocinsky
   sort: Bocinsky, Kyle
   tag: kyle_bocinsky
