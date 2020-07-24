@@ -15,7 +15,7 @@ output:
 editor_options: 
   chunk_output_type: console
 params:
-  year: 2020
+  year: 2021
   r: 0.045
   p: 0.7
   live_data: TRUE
@@ -25,6 +25,7 @@ params:
 # Set the behavior for printing scientific notation
 options(digits = 3, scipen = 999)
 options(shiny.sanitize.errors = FALSE)
+options(gargle_oauth_email = TRUE)
 
 # Set the knitting behavior
 knitr::opts_chunk$set(echo = FALSE,
@@ -109,10 +110,13 @@ The table below provides the current data for Crow Canyon's endowed funds.
 
 ```{r data}
 endowments <- get_endowment_data(live_data = params$live_data)
+
 inflation <- get_inflation(live_data = FALSE)
+
 distribution_current <- 
   endowments %>%
   get_distribution(params$year - 1)
+
 distribution_future <- 
   endowments %>%
   get_distribution(params$year)
@@ -139,7 +143,8 @@ get_target <- function(x,month){
   tibble::tibble(month = names(out), `Target Value` = out)
 }
 
-target_values <- endowments %>%
+target_values <- 
+  endowments %>%
   # dplyr::filter(Fund == "Florence C. and Robert H. Lister Fellowship") %>%
   dplyr::select(Year,
                 Month,
@@ -153,8 +158,8 @@ target_values <- endowments %>%
   dplyr::arrange(month) %>%
   dplyr::group_by(Fund) %>%
   dplyr::summarise(`Target Value` = list(purrr::map2_dfr(.x = `Contributions (monthly)`,
-                  .y = month,
-                  .f = get_target))) %>%
+                                                         .y = month,
+                                                         .f = get_target))) %>%
   tidyr::unnest() %>%
   tidyr::separate(col = month,
                   into = c("Year", "Month"),
@@ -162,8 +167,8 @@ target_values <- endowments %>%
   dplyr::mutate(Year = as.integer(Year),
                 Month = as.numeric(Month)) %>%
   dplyr::group_by(Fund,
-                Year,
-                Month) %>%
+                  Year,
+                  Month) %>%
   dplyr::summarise_all(sum, na.rm = TRUE)
 
 endowments %<>%
@@ -487,6 +492,24 @@ endowments %<>%
                                       (-1 * Distributions),
                                       Distribution))
 
+
+fund_order <-
+  endowments %>%
+  dplyr::filter(`Contributed Value` > 0) %>%
+  dplyr::group_by(Fund) %>%
+  dplyr::summarise(Start_date = min(Date),
+                   End_date = max(Date)) %>%
+  dplyr::arrange(Start_date,End_date,Fund) %$%
+  Fund %>%
+  rev()
+
+endowments %<>%
+  dplyr::mutate(Fund = factor(Fund,
+                              levels = 
+                                fund_order, 
+                              ordered = TRUE))
+
+
 endowments_net <- 
   endowments %>%
   dplyr::select(Date,
@@ -530,7 +553,7 @@ endowments_net <-
               lty = 1,
               group = 1,
               inherit.aes = FALSE) +
-        geom_line(data = endowments_net,
+    geom_line(data = endowments_net,
               mapping = aes(x = Date,
                             y = `Contributed Value`/1000000,
                             text = paste(Date, "Contributed Value:", format.money(round(`Contributed Value`)))),
@@ -549,7 +572,7 @@ endowments_net <-
     theme(plot.margin = margin(0,0.5,0,0, unit = "cm"))) %>%
   plotlyer() %>%
   layout(showlegend = FALSE) %>%
-  highlight(on = "plotly_selected", persistent = TRUE, selectize = TRUE) %T>%
+  highlight(on = "plotly_selected", selectize = TRUE) %T>%
   htmlwidgets::saveWidget("./endowment_model_market.html")
 
 ```
@@ -590,7 +613,16 @@ endowments_eoy <-
                 `Contributed Value`, 
                 `Target Value`,
                 `Market Value`,
-                Distribution)
+                Distribution) %>%
+  tidyr::complete(Date, Fund, fill = list(`Contributed Value` = 0, 
+                                          `Target Value` = 0,
+                                          `Market Value` = 0,
+                                          Distribution = 0)) %>%
+  dplyr::arrange(Fund, Date) %>%
+  dplyr::mutate(`Contributed Value` = ifelse(lubridate::year(Date) %in% c(2020,2021),NA,`Contributed Value`),
+                `Target Value` = ifelse(lubridate::year(Date) %in% c(2020,2021),NA,`Target Value`),
+                `Market Value` = ifelse(lubridate::year(Date) %in% c(2020,2021),NA,`Market Value`)) %>%
+  dplyr::mutate(Date = lubridate::year(Date))
 
 endowments_net_eoy <-
   endowments_eoy %>%
@@ -598,13 +630,18 @@ endowments_net_eoy <-
   dplyr::summarise_if(is.numeric, sum)
 
 (endowments_eoy %>%
+    # dplyr::filter(Fund == "Research Institute Endowment Fund") %>%
+    dplyr::mutate(Year = lubridate::year(Date),
+                  Distribution = as.integer(Distribution)) %>%
+    dplyr::select(Year, Fund, Distribution) %>%
+    dplyr::distinct() %>%
     ggplot() +
-    geom_area(mapping = aes(x=lubridate::year(Date),
+    geom_area(mapping = aes(x=Year,
                             y=`Distribution`/1000000,
                             fill = Fund,
                             group = Fund,
                             text = paste(Fund,"\n",
-                                         lubridate::year(Date), "Distribution:", format.money(round(`Distribution`)))),
+                                         Year, "Distribution:", format.money(round(`Distribution`)))),
               show.legend = FALSE) +
     scale_fill_hue(c = 50, 
                    l = 70, 
@@ -612,7 +649,7 @@ endowments_net_eoy <-
     geom_line(data = endowments_net_eoy,
               mapping = aes(x = lubridate::year(Date),
                             y = `Distribution`/1000000,
-                            text = paste(lubridate::year(Date), "Corpus Distribution:", format.money(round(`Distribution`)))),
+                            text = paste(lubridate::year(Date), "Actual Distribution:", format.money(round(`Distribution`)))),
               group = 1,
               inherit.aes = FALSE,
               linetype = 1) +
@@ -624,7 +661,7 @@ endowments_net_eoy <-
               group = 1,
               inherit.aes = FALSE,
               linetype = 1) +
-        geom_line(data = endowments_net_eoy,
+    geom_line(data = endowments_net_eoy,
               mapping = aes(x = lubridate::year(Date) + 1,
                             y = params$r * `Contributed Value`/1000000,
                             text = paste(lubridate::year(Date), "Contributed Distribution:", format.money(round(params$r * `Contributed Value`)))),
@@ -646,6 +683,77 @@ endowments_net_eoy <-
             # persistent = TRUE, 
             selectize = TRUE) %T>%
   htmlwidgets::saveWidget("./endowment_model_distribution.html")
+
+
+(endowments_eoy %>%
+    ggplot() +
+    geom_area(mapping = aes(x=Date,
+                            y=`Market Value`/1000000,
+                            fill = Fund,
+                            group = Fund,
+                            text = paste0("<b>",Fund,"</b>\n",
+                                          Date, " Market Value: ", format.money(round(`Market Value`)),"\n",
+                                          Date, " Contributed Value: ", format.money(round(`Contributed Value`)),"\n",
+                                          Date, " Target Value: ", format.money(round(`Target Value`))
+                            )),
+              show.legend = FALSE) +
+    scale_fill_hue(c = 50, 
+                   l = 70, 
+                   h=c(270, 150)) +
+    geom_line(data = endowments_net_eoy,
+              mapping = aes(x = Date,
+                            y = `Market Value`/1000000,
+                            text = paste0("<b>Net</b>\n",
+                                          Date, " Market Value: ", format.money(round(`Market Value`)),"\n",
+                                          Date, " Contributed Value: ", format.money(round(`Contributed Value`)),"\n",
+                                          Date, " Target Value: ", format.money(round(`Target Value`)))),
+              color = "red",
+              group = 1,
+              inherit.aes = FALSE,
+              size = 1.5) +
+    
+    geom_line(data = endowments_net_eoy,
+              mapping = aes(x = Date,
+                            y = (`Distribution`/1000000) * 20,
+                            text = paste0("<b>Net</b>\n",
+                                          Date, " Distribution: ", format.money(round(`Distribution`)))),
+              color = "black",
+              group = 1,
+              inherit.aes = FALSE,
+              size = 1.5) +
+    
+    scale_x_continuous(limits = c(1997, max(endowments_eoy$Date)), 
+                       breaks = seq(1997,max(endowments_eoy$Date),1),
+                       expand = c(0,1)) +
+    scale_y_continuous("Year-end Value (millions of USD)",
+                       limits = c(0, 25),
+                       expand = c(0, 0),
+                       sec.axis = sec_axis(~ . / 20, name = "Distribution (millions of USD)")) +
+    xlab("Year") +
+    theme_grey(base_size = 24) +
+    theme(plot.margin = margin(0.5, 0.5, 0.5, 0.5, unit = "cm"),
+          axis.title.y.left = element_text(color = "red"),
+          axis.text.y.left = element_text(color = "red"),
+          axis.ticks.y.left = element_line(color = "red")))
+# %>%
+#   plotlyer() %>%
+#   layout(showlegend = FALSE,
+#          yaxis2 = list(
+#   tickfont = list(color = "red"),
+#   overlaying = "y",
+#   side = "right",
+#   title = "second y axis"
+# ),
+#     xaxis = list(title="x")) %>%
+#   highlight(on = "plotly_selected", selectize = TRUE) %T>%
+#   htmlwidgets::saveWidget("./endowment_model_market.html")
+
+ggplot2::ggsave("./value_vs_distributions.pdf",
+                width = 20.96,
+                height = 8.67,
+                device = cairo_pdf)
+
+
 
 ```
 

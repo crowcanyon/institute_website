@@ -21,18 +21,20 @@ output:
 - Spend from new contributions after two quarters
 - Apply the rule to each fund, every year
 
-## Current Values
-<iframe src="./ccac_endowments_current_table.html" height="600" style="width:100%;height:800;"></iframe>
+## 2020 Values
+
+
+<!-- <iframe src="./ccac_endowments_current_table.html" height="600" style="width:100%;height:800;"></iframe> -->
 
 ## Historic Values
 
 <iframe src="./endowment_model_market.html" height="600" style="width:100%;height:600;"></iframe>
 
 ## `r params$year - 1` Distributions
-<iframe src="./ccac_endowments_`r params$year - 1`_table.html" height="600" style="width:100%;height:800;"></iframe>
+<!-- <iframe src="./ccac_endowments_`r params$year - 1`_table.html" height="600" style="width:100%;height:800;"></iframe> -->
 
 ## `r params$year` Distributions
-<iframe src="./ccac_endowments_`r params$year`_table.html" height="600" style="width:100%;height:800;"></iframe>
+<!-- <iframe src="./ccac_endowments_`r params$year`_table.html" height="600" style="width:100%;height:800;"></iframe> -->
 
 ## Historic Distributions
 <iframe src="./endowment_model_distribution.html" height="600" style="width:100%;height:600;"></iframe>
