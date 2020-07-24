@@ -1,201 +1,166 @@
-#- full_name: Liz Perry
-#  sort: Perry, Liz
-#  tag: liz_perry
-#  title: President and CEO, Crow Canyon
-#  url:
-#  projects:
-#  desc: >
-
+---
 - full_name: Adam Kackstetter
   sort: Kackstetter, Adam
   tag: adam_kackstetter
   title: Explorations Coordinator
   url: mailto:akackstetter@crowcanyon.org
-  projects:
-  desc: >
-    Adam loves the natural world and enjoys learning, 
-    growing, breathing and spending time with people.
+  projects: 
+  desc: 'Adam loves the natural world and enjoys learning,  growing, breathing and
+    spending time with people.
 
-- full_name: Tayler Hasbrouck
-  sort: Hasbrouck, Tayler
-  tag: tayler_hasbrouck
-  title: Explorations Coordinator
-  url: mailto:thasbrouck@crowcanyon.org
-  projects:
-  desc: >
-    Tayler helps people forge bonds with diverse cultures and 
-    histories through travel and experiential education.
-
+'
 - full_name: Kellam Throgmorton
   sort: Throgmorton, Kellam
   tag: kellam_throgmorton
   title: Supervisory Archaeologist
   url: https://crowcanyon.academia.edu/KellamThrogmorton
-  projects: [ncop]
-  desc: >
-    Kellam is a public archaeologist whose research addresses 
-    cultural landscapes, monumentality, and political organization.
+  projects:
+  - ncop
+  desc: 'Kellam is a public archaeologist whose research addresses  cultural landscapes,
+    monumentality, and political organization.
 
+'
+- full_name: Tayler Hasbrouck
+  sort: Hasbrouck, Tayler
+  tag: tayler_hasbrouck
+  title: Explorations Coordinator
+  url: mailto:thasbrouck@crowcanyon.org
+  projects: 
+  desc: 'Tayler helps people forge bonds with diverse cultures and  histories through
+    travel and experiential education.
+
+'
 - full_name: Kyle Bocinsky
   sort: Bocinsky, Kyle
   tag: kyle_bocinsky
   title: Director of the Research Institute
   url: https://www.bocinsky.io
-  projects: [vep,pfp,skope]
-  desc: >
-    Kyle is a computational archaeologist interested in 
-    human-environment interactions in the past, present, and future.
+  projects:
+  - vep
+  - pfp
+  - skope
+  desc: 'Kyle is a computational archaeologist interested in  human-environment interactions
+    in the past, present, and future.
 
+'
 - full_name: David Boyle
   sort: Boyle, David
   tag: david_boyle
   title: Explorations Coordinator
   url: 
-  projects:
-  desc: >
-    David works for the Cultural Explorations 
-    Department as a travel coordinator and guide.
+  projects: 
+  desc: 'David works for the Cultural Explorations  Department as a travel coordinator
+    and guide.
 
+'
 - full_name: Kate Hughes
   sort: Hughes, Kate
   tag: kate_cochran
   title: Laboratory Analyst
   url: 
-  projects:
-  desc: >
-    Kate is interested lithic and textile technologies, 
-    Southwestern and Great Basin archaeology, and public archaeology.
+  projects: 
+  desc: 'Kate is interested lithic and textile technologies,  Southwestern and Great
+    Basin archaeology, and public archaeology.
 
+'
 - full_name: Grant Coffey
   sort: Coffey, Grant
   tag: grant_coffey
   title: Research Database Administrator
   url: 
-  projects: [pfp,ncop]
-  desc: >
-    Grant is interested in how communities 
-    organize, evolve, and interact with each other.
-  
+  projects:
+  - pfp
+  - ncop
+  desc: 'Grant is interested in how communities  organize, evolve, and interact with
+    each other.
+
+'
 - full_name: Steve Copeland
   sort: Copeland, Steve
   tag: steve_copeland
   title: Field Archaeologist
   url: 
-  projects:
-  desc: >
-    Steve is interested in teaching the field 
-    aspects of archaeological investigations.
-  
+  projects: 
+  desc: 'Steve is interested in teaching the field  aspects of archaeological investigations.
+
+'
 - full_name: Shanna Diederichs
   sort: Diederichs, Shanna
   tag: shanna_diederichs
   title: Research Archaeologist
   url: 
-  projects:
-  desc: >
-    Shanna is a Southwestern Archaeologists interested 
-    in the origins of Pueblo social institutions.
-  
+  projects: 
+  desc: 'Shanna is a Southwestern Archaeologists interested  in the origins of Pueblo
+    social institutions.
+
+'
 - full_name: Paul Ermigiotti
   sort: Ermigiotti, Paul
   tag: paul_ermigiotti
   title: Educator/Researcher
   url: 
-  projects:
-  desc: >
-    Paul is interested in natural history, pottery replication, 
-    corn domestication and its importance in pueblo culture.
-  
-#- full_name: Becky Hammond
-#  sort: Hammond, Becky
-#  tag: becky_hammond
-#  title: Educator
-#  url: 
-#  projects:
-#  desc:
-  
-#- full_name: Tyson Hughes
-#  sort: Hughes, Tyson
-#  tag: tyson_hughes
-#  title: Educator
-#  url: 
-#  projects:
-#  desc:
-  
+  projects: 
+  desc: 'Paul is interested in natural history, pottery replication,  corn domestication
+    and its importance in pueblo culture.
+
+'
 - full_name: Jamie Merewether
   sort: Merewether, Jamie
   tag: jamie_merewether
   title: Collections Manager
   url: 
-  projects:
-  desc: >
-    Jamie is interested in material culture and 
-    what it can tell us about life in the past.
-  
+  projects: 
+  desc: 'Jamie is interested in material culture and  what it can tell us about life
+    in the past.
+
+'
 - full_name: Sarah Payne
   sort: Payne, Sarah
   tag: sarah_payne
   title: Chief Outreach Officer
   url: https://www.linkedin.com/in/sarah-payne-6798931a
-  projects:
-  desc: >
-    Sarah is an anthropologist interested in the impact 
-    of cultural tourism and experiential learning.
-  
+  projects: 
+  desc: 'Sarah is an anthropologist interested in the impact  of cultural tourism
+    and experiential learning.
+
+'
 - full_name: Susan Ryan
   sort: Ryan, Susan
   tag: susan_ryan
   title: Chief Mission Officer
   url: 
-  projects:
-  desc: >
-    Susan is a scientist who researches the built environment 
-    and community formation in the ancient Southwest.
-  
-- full_name: Kari Schleher
-  sort: Schleher, Kari
-  tag: kari_schleher
-  title: Laboratory Manager
-  url: https://crowcanyon.academia.edu/KariSchleher
-  projects:
-  desc: >
-    Kari is an anthropological archaeologist interested in material 
-    culture as a means of understanding past social relationships.
-    
+  projects: 
+  desc: 'Susan is a scientist who researches the built environment  and community
+    formation in the ancient Southwest.
+
+'
 - full_name: Dylan Schwindt
   sort: Schwindt, Dylan
   tag: dylan_schwindt
   title: Systems Administrator
   url: 
-  projects:
-  desc: >
-     Dylan is interested in applying innovative solutions in database systems, 
-     GIScience, and advanced computing technology to archaeological research and education programs.
-  
-#- full_name: Dan Simplicio
-#  tag: dan_simplicio
-#  title: Cultural Specialist
-#  url: 
-#  projects:
-#  desc:
-  
+  projects: 
+  desc: 'Dylan is interested in applying innovative solutions in database systems,  GIScience,
+    and advanced computing technology to archaeological research and education programs.
+
+'
 - full_name: Kate Thompson
   sort: Thompson, Kate
   tag: kate_thompson
   title: Explorations Coordinator
   url: 
-  projects:
-  desc: >
-    Kate works for the Cultural Explorations Department 
-    as an adventure-travel coordinator and guide.
+  projects: 
+  desc: 'Kate works for the Cultural Explorations Department  as an adventure-travel
+    coordinator and guide.
 
+'
 - full_name: Mark Varien
   sort: Varien, Mark
   tag: mark_varien
   title: Executive Vice President of the Research Institute
   url: 
-  projects:
-  desc: >
-     Mark is interested in Puebloan culture history, 
-     archaeology and public education, and American Indian involvement in archaeology.
-  
+  projects: 
+  desc: 'Mark is interested in Puebloan culture history,  archaeology and public education,
+    and American Indian involvement in archaeology.
+
+'
