@@ -8,7 +8,6 @@ deploy: false
 encoding: utf-8
 
 destination: ./docs
-baseurl: /institute
 
 plugins: ['jekyll-paginate']
 
