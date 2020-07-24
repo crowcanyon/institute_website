@@ -21,4 +21,3 @@ page_gen:
     template: 'person'
     name: 'tag'
     dir: '/people/associates'
-    base: '/institute'
