@@ -14,7 +14,7 @@
 
 &lt;p&gt;The new home for the Research Institute is &lt;a href=&quot;&quot;&gt;www.crowcanyon.org/institute&lt;/a&gt;. Come visit!&lt;/p&gt;
 </description>
-					<published>2016-05-20 00:00:00 -0600</published>
+					<published>2016-05-20 00:00:00 -0400</published>
 					<link>/institute//news/RI_Launch.html</link>
 				</item>
 			
@@ -28,7 +28,7 @@
 
 &lt;p&gt;The School for Advanced Research will hold a reception during the 2017 SAA conference to present Dr. Ortman with a $5,000 check and commemorative plaque.&lt;/p&gt;
 </description>
-					<published>2016-05-17 00:00:00 -0600</published>
+					<published>2016-05-17 00:00:00 -0400</published>
 					<link>/institute//news/Ortman_prize.html</link>
 				</item>
 			
@@ -40,7 +40,7 @@
 
 &lt;p&gt;Paragraphs are separated by a blank line.&lt;/p&gt;
 
-&lt;p&gt;2nd paragraph. &lt;em&gt;Italic&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;monospace&lt;/code&gt;. Itemized lists
+&lt;p&gt;2nd paragraph. &lt;em&gt;Italic&lt;/em&gt;, &lt;strong&gt;bold&lt;/strong&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;monospace&lt;/code&gt;. Itemized lists
 look like:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -77,14 +77,14 @@ Unicode is supported. ☺&lt;/p&gt;
 &lt;p&gt;Note again how the actual text starts at 4 columns in (4 characters
 from the left side). Here’s a code sample:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Let me re-iterate ...
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Let me re-iterate ...
 for i in 1 .. 10 { do-something(i) }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;As you probably guessed, indented 4 spaces. By the way, instead of
 indenting the block, you can use delimited blocks, if you like:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;define foobar() {
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;define foobar() {
     print &quot;Welcome to flavor country!&quot;;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -121,7 +121,7 @@ delimited block for Pandoc to syntax highlight it:&lt;/p&gt;
     &lt;p&gt;Dump everything in the pot and follow
 this algorithm:&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find wooden spoon
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find wooden spoon
 uncover pot
 stir
 cover pot
@@ -139,7 +139,7 @@ that last line which continues item 3 above).&lt;/p&gt;
 
 &lt;p&gt;Here’s a link to &lt;a href=&quot;http://foo.bar&quot;&gt;a website&lt;/a&gt;, to a &lt;a href=&quot;local-doc.html&quot;&gt;local
 doc&lt;/a&gt;, and to a &lt;a href=&quot;#an-h2-header&quot;&gt;section heading in the current
-doc&lt;/a&gt;. Here’s a footnote &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+doc&lt;/a&gt;. Here’s a footnote &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;Tables can look like this:&lt;/p&gt;
 
@@ -207,19 +207,19 @@ term/definition pair to spread things out more.)&lt;/p&gt;
 &lt;p&gt;Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;I = \int \rho R^{2} dV&lt;/script&gt;
+\[I = \int \rho R^{2} dV\]
 
 &lt;p&gt;And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Footnote text goes here. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Footnote text goes here. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-					<published>2016-03-21 00:00:00 -0600</published>
+					<published>2016-03-21 00:00:00 -0400</published>
 					<link>/institute//news/example.html</link>
 				</item>
 			
